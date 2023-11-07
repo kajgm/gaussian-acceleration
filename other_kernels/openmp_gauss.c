@@ -208,14 +208,12 @@ void gauss()
   /* Gaussian elimination */
   for (norm = 0; norm < N - 1; norm++)
   {
-    // Pipeline the row loop
+#pragma omp parallel for shared(A, B) private(multiplier, row, col)
     for (row = norm + 1; row < N; row++)
     {
-      // Insert pragma HLS II = 1
       multiplier = A[row][norm] / A[norm][norm];
       for (col = norm; col < N; col++)
       {
-        // Automatically unrolled
         A[row][col] -= A[norm][col] * multiplier;
       }
       B[row] -= B[norm] * multiplier;
