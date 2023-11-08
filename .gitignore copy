@@ -1,0 +1,5 @@
+# Ignore the mm.prj directory and its contents
+*.prj
+
+# Ignore the vitis_hls.log file
+vitis_hls.log

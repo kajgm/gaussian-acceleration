@@ -30,6 +30,7 @@ void print_inputs(float *A, float *B, float *X)
     }
 }
 
+/* Print output matrix */
 void print_X(float *X)
 {
     int row;
@@ -45,21 +46,28 @@ void print_X(float *X)
 }
 
 /* Initialize A and B (and X to 0.0s) */
-void initialize_inputs(float *A, float *B, float *X)
+void initialize_inputs(float *A_sw, float *B_sw, float *X_sw, float *A_hw, float *B_hw, float *X_hw)
 {
     int row, col;
+    float aConst, bConst;
 
     for (col = 0; col < SIZE; col++)
     {
         for (row = 0; row < SIZE; row++)
         {
-            A[col * SIZE + row] = (2 * row) + (3 * col) + 1;
+            aConst = (float)rand() / 32768.0;
+            A_sw[col * SIZE + row] = aConst;
+            A_hw[col * SIZE + row] = aConst;
         }
-        B[col] = (2 * col) + 1;
-        X[col] = 1;
+        bConst = (float)rand() / 32768.0;
+        B_sw[col] = bConst;
+        B_hw[col] = bConst;
+        X_sw[col] = 0;
+        X_hw[col] = 0;
     }
 }
 
+/* Static software code */
 static void gauss_sw(float *A, float *B, float *X)
 {
     int norm, row, col; /* Normalization row, and zeroing
@@ -95,14 +103,15 @@ static void gauss_sw(float *A, float *B, float *X)
     }
 }
 
+/* Comparing hardware/software output values */
 int check_sw_hw(float *X_sw, float *X_hw)
 {
     int i, j;
 
     for (i = 0; i < SIZE; i++)
     {
-
-        // if (X_sw[i] != X_hw[i])
+        // Floating point error
+        if (abs(X_sw[i] - X_hw[i]) > 0.01)
         {
             printf("TEST FAILED, results not matching, C_sw[%d] = %f, C_hw[%d] = %f.\n",
                    i, X_sw[i], i, X_hw[i]);
@@ -113,8 +122,7 @@ int check_sw_hw(float *X_sw, float *X_hw)
     return 0;
 }
 
-/* DCE code. Must scan the entire live-out data.
-   Can be used also to check the correctness of the output. */
+/* Comparing hardware/software output sums */
 int check_sw_hw_sum(float *X_sw, float *X_hw)
 {
     int i, j;
@@ -129,7 +137,8 @@ int check_sw_hw_sum(float *X_sw, float *X_hw)
         sum_hw += X_hw[i];
     }
 
-    if (sum_sw != sum_hw)
+    // Floating point error
+    if (abs(sum_sw - sum_hw) > 0.01)
     {
         printf("TEST FAILED, results not matching, C_sw sum = %f, C_hw sum = %f.\n",
                sum_sw, sum_hw);
@@ -142,6 +151,8 @@ int check_sw_hw_sum(float *X_sw, float *X_hw)
 int main(int argc, char **argv)
 {
     /* Variable declaration/allocation. */
+    int status;
+
     float *A_hw = (float *)malloc(SIZE * SIZE * sizeof(float));
     float *B_hw = (float *)malloc(SIZE * sizeof(float));
     float *X_hw = (float *)malloc(SIZE * sizeof(float));
@@ -150,9 +161,10 @@ int main(int argc, char **argv)
     float *B_sw = (float *)malloc(SIZE * sizeof(float));
     float *X_sw = (float *)malloc(SIZE * sizeof(float));
 
-    /* Initialize A and B */
-    initialize_inputs(A_hw, B_hw, X_hw);
-    initialize_inputs(A_sw, B_sw, X_sw);
+    srand(RAND_SEED);
+
+    /* Initialize A, B, and X */
+    initialize_inputs(A_sw, B_sw, X_sw, A_hw, B_hw, X_hw);
 
     gauss_sw(A_sw, B_sw, X_sw);
 
@@ -165,8 +177,13 @@ int main(int argc, char **argv)
     /* Stop and print timer. */
     toc(&timer, "kernel execution");
 
-    check_sw_hw(X_sw, X_hw);
-    check_sw_hw_sum(X_sw, X_hw);
+    status = check_sw_hw(X_sw, X_hw);
+    status = check_sw_hw_sum(X_sw, X_hw);
+
+    if (status == 0)
+        printf("TEST PASSED!\n");
+    else
+        printf("TEST FAILED!\n");
 
     return 0;
 }
