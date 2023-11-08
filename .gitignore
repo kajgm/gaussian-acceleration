@@ -1,2 +1,8 @@
 *.out
 .DS_Store
+
+# Ignore the .prj directory and its contents
+*.prj
+
+# Ignore the vitis_hls.log file
+vitis_hls.log
