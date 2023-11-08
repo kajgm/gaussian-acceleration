@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="gauss.cpp" path="C:\KDevelop\gaussian-acceleration\gauss.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="gauss_test.cpp" path="C:\KDevelop\gaussian-acceleration\gauss_test.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

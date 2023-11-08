@@ -1,0 +1,50 @@
+<profile>
+
+<section name = "Vitis HLS Report for 'gauss'" level="0">
+<item name = "Date">Wed Nov  8 11:16:39 2023
+</item>
+<item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)</item>
+<item name = "Project">gauss.prj</item>
+<item name = "Solution">solution1 (Vivado IP Flow Target)</item>
+<item name = "Product family">virtexuplus</item>
+<item name = "Target device">xcu50-fsvh2104-2-e</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">3.35 ns, 2.342 ns, 0.90 ns</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="8">, min, max, min, max, min, max, Type</keys>
+<column name="">1178, 53198, 3.946 us, 0.178 ms, 1179, 53199, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_13_1">840, 49980, 56 ~ 3332, -, -, 15, no</column>
+<column name=" + VITIS_LOOP_15_2">54, 3330, 54 ~ 222, -, -, 1 ~ 15, no</column>
+<column name="  ++ VITIS_LOOP_18_3">25, 193, 14, 12, 1, 2 ~ 16, yes</column>
+<column name="- VITIS_LOOP_30_4">336, 3216, 21 ~ 201, -, -, 16, no</column>
+<column name=" + VITIS_LOOP_33_5">3, 183, 14, 12, 1, 0 ~ 15, yes</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

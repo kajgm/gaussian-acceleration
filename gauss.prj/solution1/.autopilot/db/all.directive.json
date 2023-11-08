@@ -1,0 +1,15 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "gauss",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "gauss"
+              }]
+          }
+        }]
+    }]}

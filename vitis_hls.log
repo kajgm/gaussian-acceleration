@@ -1,45 +1,28 @@
-
-****** Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2020.2 (64-bit)
-  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
-  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
-
-source C:/Xilinx/Vitis_HLS/2020.2/scripts/vitis_hls/hls.tcl -notrace
 INFO: [HLS 200-10] Running 'C:/Xilinx/Vitis_HLS/2020.2/bin/unwrapped/win64.o/vitis_hls.exe'
-INFO: [HLS 200-10] For user 'kajgr' on host 'kaj-main' (Windows NT_amd64 version 6.2) on Mon Nov 06 23:47:12 -0800 2023
+INFO: [HLS 200-10] For user 'kajgr' on host 'kaj-main' (Windows NT_amd64 version 6.2) on Wed Nov 08 11:20:38 -0800 2023
 INFO: [HLS 200-10] In directory 'C:/KDevelop/gaussian-acceleration'
-Sourcing Tcl script 'run_hls.tcl'
-INFO: [HLS 200-1510] Running: open_project gauss.prj -reset 
-INFO: [HLS 200-10] Opening and resetting project 'C:/KDevelop/gaussian-acceleration/gauss.prj'.
-WARNING: [HLS 200-40] No C:/KDevelop/gaussian-acceleration/gauss.prj/solution1/solution1.aps file found.
+Sourcing Tcl script 'C:/KDevelop/gaussian-acceleration/gauss.prj/solution1/csim.tcl'
+INFO: [HLS 200-1510] Running: open_project gauss.prj 
+INFO: [HLS 200-10] Opening project 'C:/KDevelop/gaussian-acceleration/gauss.prj'.
 INFO: [HLS 200-1510] Running: set_top gauss 
 INFO: [HLS 200-1510] Running: add_files gauss.cpp 
 INFO: [HLS 200-10] Adding design file 'gauss.cpp' to the project
-INFO: [HLS 200-1510] Running: add_files -tb gauss_test.cpp 
+INFO: [HLS 200-1510] Running: add_files -tb gauss_test.cpp -cflags -Wno-unknown-pragmas -csimflags -Wno-unknown-pragmas 
 INFO: [HLS 200-10] Adding test bench file 'gauss_test.cpp' to the project
-INFO: [HLS 200-1510] Running: open_solution solution1 
-INFO: [HLS 200-10] Creating and opening solution 'C:/KDevelop/gaussian-acceleration/gauss.prj/solution1'.
-INFO: [HLS 200-1505] Using default flow_target 'vivado'
+INFO: [HLS 200-1510] Running: open_solution solution1 -flow_target vivado 
+INFO: [HLS 200-10] Opening solution 'C:/KDevelop/gaussian-acceleration/gauss.prj/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.35ns.
+INFO: [HLS 200-10] Setting target device to 'xcu50-fsvh2104-2-e'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
 Resolution: For help on HLS 200-1505 see www.xilinx.com/cgi-bin/docs/rdoc?v=2020.2;t=hls+guidance;d=200-1505.html
 INFO: [HLS 200-1510] Running: set_part xcu50-fsvh2104-2-e 
-INFO: [HLS 200-10] Setting target device to 'xcu50-fsvh2104-2-e'
-INFO: [HLS 200-1510] Running: create_clock -period 3.35 
-INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.35ns.
-INFO: [HLS 200-1510] Running: csim_design 
+INFO: [HLS 200-1510] Running: create_clock -period 3.35 -name default 
+INFO: [HLS 200-1510] Running: set_directive_top -name gauss gauss 
+INFO: [HLS 200-1510] Running: csim_design -setup -quiet 
 INFO: [SIM 211-2] *************** CSIM start ***************
 INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
    Compiling ../../../../gauss_test.cpp in debug mode
-   Compiling ../../../../gauss.cpp in debug mode
    Generating csim.exe
-@E Simulation failed.
-ERROR: [SIM 211-100] CSim failed with errors.
+INFO: [SIM 211-1] CSim file generation done with 0 errors.
 INFO: [SIM 211-3] *************** CSIM finish ***************
-INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.839 seconds; current allocated memory: 190.504 MB.
-4
-    while executing
-"source run_hls.tcl"
-    ("uplevel" body line 1)
-    invoked from within
-"uplevel \#0 [list source $arg] "
-
-INFO: [Common 17-206] Exiting vitis_hls at Mon Nov  6 23:47:15 2023...
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.642 seconds; current allocated memory: 191.567 MB.

@@ -1,7 +1,6 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch GCC as the compiler.
    Compiling ../../../../gauss_test.cpp in debug mode
-   Compiling ../../../../gauss.cpp in debug mode
    Generating csim.exe
-ERR: [SIM 100] CSim failed with errors.
+INFO: [SIM 1] CSim file generation done with 0 errors.
 INFO: [SIM 3] *************** CSIM finish ***************
