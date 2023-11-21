@@ -89,6 +89,7 @@ void compute(float bufA[TILE_SIZE][TILE_SIZE],
 
   compute_row_inner:
   for (row_inner = 0; row_inner < TILE_SIZE; row_inner++) {
+    #pragma HLS pipeline II=1
     current_row = row + row_inner;
     if (current_row >= norm + 1) {
       if (col == 0){
@@ -96,7 +97,7 @@ void compute(float bufA[TILE_SIZE][TILE_SIZE],
       }
       compute_col_inner:
       for (col_inner = 0; col_inner < TILE_SIZE; col_inner++) {
-        #pragma HLS pipeline II=1
+        #pragma HLS unroll
         current_col = col + col_inner;
         if (current_col >= norm) {
           bufA[row_inner][col_inner] -= bufNormLine[col_inner] * multiplier;
