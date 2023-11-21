@@ -56,7 +56,7 @@ void sub_gauss(float A[SIZE * SIZE], float B[SIZE], int norm) {
   float bufferA[TILE_SIZE][TILE_SIZE];
   float bufferB[TILE_SIZE];
 
-  #pragma HLS array_partition variable=bufferA cyclic factor=16
+  #pragma HLS array_partition variable=bufferA cyclic factor=16 dim=2
   #pragma HLS array_partition variable=bufferB cyclic factor=16
 
   b_norm_buffer = B[norm];
@@ -77,6 +77,7 @@ void sub_gauss(float A[SIZE * SIZE], float B[SIZE], int norm) {
         current_row = row + row_inner_load;
         col_inner_load:
         for (col_inner_load = 0; col_inner_load < TILE_SIZE; col_inner_load++) {
+          #pragma HLS pipeline II=1
           current_col = col + col_inner_load;
           bufferA[row_inner_load][col_inner_load] = A[current_row * SIZE + current_col];
         }
@@ -95,6 +96,7 @@ void sub_gauss(float A[SIZE * SIZE], float B[SIZE], int norm) {
           }
           col_inner:
           for (col_inner = 0; col_inner < TILE_SIZE; col_inner++) {
+            #pragma HLS pipeline II=1
             current_col = col + col_inner;
             if (current_col >= norm) {
               bufferA[row_inner][col_inner] -= norm_line_buffer[current_col] * multiplier;
@@ -112,6 +114,7 @@ void sub_gauss(float A[SIZE * SIZE], float B[SIZE], int norm) {
         current_row = row + row_inner_store;
         col_inner_store:
         for (col_inner_store = 0; col_inner_store < TILE_SIZE; col_inner_store++) {
+          #pragma HLS pipeline II=1
           current_col = col + col_inner_store;
           if (current_row >= norm + 1 && current_col >= norm){
             //A[current_row * SIZE + current_col] = 1;
