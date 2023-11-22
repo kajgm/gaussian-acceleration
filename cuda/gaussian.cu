@@ -91,11 +91,17 @@ int main(int argc, char *argv[])
 {
 	printf("WG size of kernel 1 = %d, WG size of kernel 2= %d X %d\n", MAXBLOCKSIZE, BLOCK_SIZE_XY, BLOCK_SIZE_XY);
 	int verbose = 1;
-	int i, j;
-	char flag;
-	int max_text_length = 12;
-	char *filename = (char *)malloc(max_text_length * sizeof(char));
-	filename = "1024.txt";
+	// int i, j;
+	// char flag;
+
+	if (argc >= 2)
+	{
+		InitProblemOnce(argv[1]);
+	}
+	else
+	{
+		InitProblemOnce("1024.txt");
+	}
 	// if (argc < 2) {
 	//     printf("Usage: gaussian -f filename / -s size [-q]\n\n");
 	//     printf("-q (quiet) suppresses printing the matrix and result values.\n");
@@ -156,7 +162,6 @@ int main(int argc, char *argv[])
 	//   }
 	// }
 
-	InitProblemOnce(filename);
 	InitPerRun();
 	// begin timing
 	struct timeval time_start;
