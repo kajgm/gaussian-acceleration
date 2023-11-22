@@ -1,10 +1,10 @@
 #ifndef _H_GAUSS_H_
 #define _H_GAUSS_H_
 
-#define SIZE 1024
+#define SIZE 4096
 #define RAND_SEED 123
 
-#define TILE_SIZE 32
+#define TILE_SIZE 128
 
 void gauss(float A[SIZE * SIZE], float B[SIZE], float X[SIZE]);
 

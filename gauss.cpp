@@ -74,10 +74,6 @@ void store_B(float B[SIZE],
 #pragma HLS inline off
   int row_inner;
   int current_row;
-  if (norm == 31)
-  {
-    int a = 0;
-  }
 store_b_row_inner:
   for (row_inner = 0; row_inner < TILE_SIZE; row_inner++)
   {
