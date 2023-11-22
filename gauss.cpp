@@ -222,7 +222,7 @@ void sub_gauss(float A[SIZE * SIZE], float B[SIZE], int norm,
   float bufferNormLine[TILE_SIZE];
   float bufferMultipliers[TILE_SIZE];
 
-#pragma HLS array_partition variable = bufferA cyclic factor = 32 dim = 2
+#pragma HLS array_partition variable = bufferA complete dim = 2
 #pragma HLS array_partition variable = bufferB complete
 #pragma HLS array_partition variable = bufferNormLine complete
 #pragma HLS array_partition variable = bufferMultipliers complete
