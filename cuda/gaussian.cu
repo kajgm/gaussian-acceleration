@@ -46,7 +46,7 @@ float *m;
 
 FILE *fp;
 
-void InitProblemOnce(char *filename);
+void InitProblemOnce(int matrixSize);
 void InitPerRun();
 void ForwardSub();
 void BackSub();
@@ -56,6 +56,7 @@ void InitMat(float *ary, int nrow, int ncol);
 void InitAry(float *ary, int ary_size);
 void PrintMat(float *ary, int nrow, int ncolumn);
 void PrintAry(float *ary, int ary_size);
+void PrintSum(float *ary, int ary_size);
 void PrintDeviceProperties();
 void checkCUDAError(const char *msg);
 
@@ -87,6 +88,12 @@ void create_matrix(float *m, int size)
 	}
 }
 
+void create_barr(float *b, int size)
+{
+	for (int j = 0; j < size; j++)
+		b[j] = 1.0;
+}
+
 int main(int argc, char *argv[])
 {
 	printf("WG size of kernel 1 = %d, WG size of kernel 2= %d X %d\n", MAXBLOCKSIZE, BLOCK_SIZE_XY, BLOCK_SIZE_XY);
@@ -96,11 +103,11 @@ int main(int argc, char *argv[])
 
 	if (argc >= 2)
 	{
-		InitProblemOnce(argv[1]);
+		InitProblemOnce(atoi(argv[1]));
 	}
 	else
 	{
-		InitProblemOnce("1024.txt");
+		InitProblemOnce(1024);
 	}
 	// if (argc < 2) {
 	//     printf("Usage: gaussian -f filename / -s size [-q]\n\n");
@@ -191,6 +198,8 @@ int main(int argc, char *argv[])
 	{
 		printf("The final solution is: \n");
 		PrintAry(finalVec, Size);
+		printf("The final sum is:\n");
+		PrintSum(finalVec, Size);
 	}
 	printf("\nTime total (including memory transfers)\t%f sec\n", time_total * 1e-6);
 	printf("Time for CUDA kernels:\t%f sec\n", totalKernelTime * 1e-6);
@@ -248,28 +257,31 @@ void PrintDeviceProperties()
  ** the memory storages.
  **------------------------------------------------------
  */
-void InitProblemOnce(char *filename)
+void InitProblemOnce(int matrixSize)
 {
+	Size = matrixSize;
 	// char *filename = argv[1];
 
 	// printf("Enter the data file name: ");
 	// scanf("%s", filename);
 	// printf("The file name is: %s\n", filename);
 
-	fp = fopen(filename, "r");
+	// fp = fopen(filename, "r");
 
-	fscanf(fp, "%d", &Size);
+	// fscanf(fp, "%d", &Size);
 
 	a = (float *)malloc(Size * Size * sizeof(float));
+	create_matrix(a, Size);
 
-	InitMat(a, Size, Size);
-	// printf("The input matrix a is:\n");
-	// PrintMat(a, Size, Size);
+	// InitMat(a, Size, Size);
+	//  printf("The input matrix a is:\n");
+	//  PrintMat(a, Size, Size);
 	b = (float *)malloc(Size * sizeof(float));
+	create_barr(b, Size);
 
-	InitAry(b, Size);
-	// printf("The input array b is:\n");
-	// PrintAry(b, Size);
+	// InitAry(b, Size);
+	//  printf("The input array b is:\n");
+	//  PrintAry(b, Size);
 
 	m = (float *)malloc(Size * Size * sizeof(float));
 }
@@ -476,6 +488,23 @@ void PrintAry(float *ary, int ary_size)
 	}
 	printf("\n\n");
 }
+
+/*------------------------------------------------------
+ ** PrintSum() -- Print the sum of the contents of the array (vector)
+ **------------------------------------------------------
+ */
+void PrintSum(float *ary, int ary_size)
+{
+	int i;
+	float sum = 0.0;
+	for (i = 0; i < ary_size; i++)
+	{
+		sum += ary[i];
+	}
+	printf("%2.4f", sum);
+	printf("\n\n");
+}
+
 void checkCUDAError(const char *msg)
 {
 	cudaError_t err = cudaGetLastError();
