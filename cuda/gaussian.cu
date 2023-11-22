@@ -37,7 +37,7 @@
 #elif defined(RD_WG_SIZE)
 #define BLOCK_SIZE_XY RD_WG_SIZE
 #else
-#define BLOCK_SIZE_XY 4
+#define BLOCK_SIZE_XY 32
 #endif
 
 int Size;
