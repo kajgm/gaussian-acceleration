@@ -254,6 +254,31 @@ row_tile:
   }
 }
 
+void back_substitution(float A[SIZE * SIZE], float B[SIZE], float X[SIZE], int row)
+{
+  #pragma HLS inline off
+  int col, col_inner;
+  int current_col;
+  X[row] = B[row];
+
+  back_col_tiled:
+    for (col = SIZE - 1; col >= 0; col -= TILE_SIZE)
+    {
+      back_col_inner:
+        for (col_inner = 0; col_inner < TILE_SIZE; col_inner++)
+        {
+          current_col = col - col_inner;
+          if (current_col > row)
+          {
+            X[row] -= A[row * SIZE + current_col] * X[current_col];
+          }
+        }
+    }
+
+  X[row] /= A[row * SIZE + row];
+
+}
+
 void gauss(float A[SIZE * SIZE], float B[SIZE], float X[SIZE])
 {
   // float bufferA[TILE_SIZE * TILE_SIZE];
@@ -275,22 +300,22 @@ norm:
     a_norm_element = A[norm * SIZE + norm];
     b_norm_element = B[norm];
 
-  norm_line:
-    for (int i = 0; i < SIZE; i++)
-    {
-#pragma HLS pipeline II = 1
-      norm_line[i] = A[norm * SIZE + i];
-    }
-
-  multipliers:
-    for (int i = 0; i < SIZE; i++)
-    {
-#pragma HLS pipeline II = 1
-      if (i > norm)
+    norm_line:
+      for (int i = 0; i < SIZE; i++)
       {
-        multipliers[i] = A[i * SIZE + norm] / a_norm_element;
+#pragma HLS pipeline II = 1
+        norm_line[i] = A[norm * SIZE + i];
       }
-    }
+
+    multipliers:
+      for (int i = 0; i < SIZE; i++)
+      {
+#pragma HLS pipeline II = 1
+        if (i > norm)
+        {
+          multipliers[i] = A[i * SIZE + norm] / a_norm_element;
+        }
+      }
 
     sub_gauss(A, B, norm, b_norm_element, norm_line, multipliers);
   }
@@ -302,15 +327,6 @@ norm:
 back_row:
   for (row = SIZE - 1; row >= 0; row--)
   {
-    X[row] = B[row];
-  back_col:
-    for (col = SIZE - 1; col >= 0; col--)
-    {
-      if (col > row)
-      {
-        X[row] -= A[row * SIZE + col] * X[col];
-      }
-    }
-    X[row] /= A[row * SIZE + row];
+    back_substitution(A, B, X, row);
   }
 }
