@@ -20,7 +20,7 @@ set_part {xcu50-fsvh2104-2-e}
 create_clock -period 3.35
 
 # do a c simulation
-csim_design
+# csim_design
 # synthesize the design
 csynth_design
 # do a co-simulation
