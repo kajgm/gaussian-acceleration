@@ -329,19 +329,19 @@ row_tile:
       
       switch (col%3) {
         case 0:
-          load_A(A, bufferA[0], norm_line, bufferNormLine[0], row, col, load_flag);
-          compute_A(bufferA[2], bufferNormLine[2], bufferMultipliers, norm, row, col, compute_flag);
-          store_A(A, bufferA[1], row, col, store_flag);
+          load_A(A, bufferA[0], norm_line, bufferNormLine[0], row, col*TILE_SIZE, load_flag);
+          compute_A(bufferA[2], bufferNormLine[2], bufferMultipliers, norm, row, (col-1)*TILE_SIZE, compute_flag);
+          store_A(A, bufferA[1], row, (col-2)*TILE_SIZE, store_flag);
           break;
         case 1:
-          load_A(A, bufferA[1], norm_line, bufferNormLine[1], row, col, load_flag);
-          compute_A(bufferA[0], bufferNormLine[0], bufferMultipliers, norm, row, col, compute_flag);
-          store_A(A, bufferA[2], row, col, store_flag);
+          load_A(A, bufferA[1], norm_line, bufferNormLine[1], row, col*TILE_SIZE, load_flag);
+          compute_A(bufferA[0], bufferNormLine[0], bufferMultipliers, norm, row, (col-1)*TILE_SIZE, compute_flag);
+          store_A(A, bufferA[2], row, (col-2)*TILE_SIZE, store_flag);
           break;
         case 2:
-          load_A(A, bufferA[2], norm_line, bufferNormLine[2], row, col, load_flag);
-          compute_A(bufferA[1], bufferNormLine[1], bufferMultipliers, norm, row, col, compute_flag);
-          store_A(A, bufferA[0], row, col, store_flag);
+          load_A(A, bufferA[2], norm_line, bufferNormLine[2], row, col*TILE_SIZE, load_flag);
+          compute_A(bufferA[1], bufferNormLine[1], bufferMultipliers, norm, row, (col-1)*TILE_SIZE, compute_flag);
+          store_A(A, bufferA[0], row, (col-2)*TILE_SIZE, store_flag);
           break;
       }
     }
