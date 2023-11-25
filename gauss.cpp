@@ -44,13 +44,14 @@ p16x32f pmul(float a, p16x32f b, int col, int col_inner, int norm)
 {
   #pragma HLS inline
   p16x32f c{};
+  pmul:
   for (int i = 0; i < PACK_COUNT; i++){
     #pragma HLS unroll
      if (col + col_inner * PACK_COUNT + i >= norm)
      {
-		float t = a * b.f[i]; // temporary variable is used so that impl type can be specified
-		#pragma HLS bind_op variable=t op=fmul impl=fulldsp // allow tradeoff of DSP units to stay within 60% utilization
-		c.f[i] = t;
+      float t = a * b.f[i]; // temporary variable is used so that impl type can be specified
+      //#pragma HLS bind_op variable=t op=fmul impl=fulldsp // allow tradeoff of DSP units to stay within 60% utilization
+      c.f[i] = t;
      }
   }
   return c;
@@ -60,6 +61,7 @@ p16x32f psub(p16x32f a, p16x32f b, int col, int col_inner, int norm)
 {
   #pragma HLS inline
   p16x32f c{};
+  psub:
   for (int i = 0; i < PACK_COUNT; i++){
     #pragma HLS unroll
       if (col + col_inner * PACK_COUNT + i >= norm)
@@ -89,8 +91,9 @@ store_row_inner:
     {
 #pragma HLS pipeline II = 1
       p16x32f packed = bufA[row_inner][col_inner];
+      packed_loop:
       for (int i = 0; i < PACK_COUNT; i++) {
-        #pragma HLS unroll
+        #pragma HLS unroll factor=2
         A[current_row * SIZE + col + col_inner * PACK_COUNT + i] = packed.f[i];
       }
     }
@@ -141,13 +144,10 @@ compute_row_inner:
           p16x32f x{};
           p16x32f temp{};
 
-//          if (current_col >= norm)
-//          {
             x = pmul(multiplier, bufNormLine[col_inner], col, col_inner, norm);
             temp = bufA[row_inner][col_inner];
 
             bufA[row_inner][col_inner] = psub(temp, x, col, col_inner, norm);
-//          }
         }
       }
   }
@@ -167,6 +167,7 @@ void compute_B(float bufB[TILE_SIZE],
 compute_row_inner:
   for (row_inner = 0; row_inner < TILE_SIZE; row_inner++)
   {
+    #pragma HLS unroll
     current_row = row + row_inner;
     if (current_row >= norm + 1)
     {
@@ -186,6 +187,7 @@ void load_bufferA(float A[SIZE * SIZE], p16x32f bufA[TILE_SIZE][TILE_SIZE / PACK
 load_row_inner:
   for (row_inner = 0; row_inner < TILE_SIZE; row_inner++)
   {
+// #pragma HLS pipeline II = 1
     current_row = row + row_inner;
   load_col_inner:
     for (col_inner = 0; col_inner < TILE_SIZE / PACK_COUNT; col_inner++)
@@ -193,6 +195,7 @@ load_row_inner:
 #pragma HLS pipeline II = 1
 
       p16x32f packed{};
+      packed_loop:
       for (int i = 0; i < PACK_COUNT; i++) {
         #pragma HLS unroll
         packed.f[i] = A[current_row * SIZE + col + col_inner * PACK_COUNT + i];
@@ -220,9 +223,9 @@ load_row_inner:
   }
 }
 
-void load_norm_line(float norm_line[SIZE],
+void load_norm_line(float A[SIZE * SIZE],
                     p16x32f bufNormLine[TILE_SIZE / PACK_COUNT],
-                    int col)
+                    int norm, int col)
 {
 #pragma HLS inline off
   int col_inner;
@@ -232,16 +235,17 @@ load_col_inner:
   {
 #pragma HLS pipeline II = 1
     p16x32f packed{};
+    packed_loop:
     for (int i = 0; i < PACK_COUNT; i++) {
       #pragma HLS unroll
-      packed.f[i] = norm_line[col + col_inner * PACK_COUNT + i];
+      packed.f[i] = A[norm * SIZE + col + col_inner * PACK_COUNT + i];
     }
 
     bufNormLine[col_inner] = packed;    
   }
 }
 
-void load_multipliers(float multipliers[SIZE], float bufferMultipliers[TILE_SIZE], int row)
+void load_multipliers(float A[SIZE * SIZE], float bufferMultipliers[TILE_SIZE], int norm, int row, float a_norm_element)
 {
 #pragma HLS inline off
   int row_inner;
@@ -252,37 +256,36 @@ load_row_inner:
   {
 #pragma HLS pipeline II = 1
     current_row = row + row_inner;
-    bufferMultipliers[row_inner] = multipliers[current_row];
+
+    bufferMultipliers[row_inner] = A[current_row * SIZE + norm] / a_norm_element;
   }
 }
 
 void load_B(float B[SIZE], \
     float bufferB[TILE_SIZE], \
-    float multipliers[SIZE], \
+    float A[SIZE * SIZE], \
     float bufferMultipliers[TILE_SIZE], \
-    int row)
+    int norm, int row, float a_norm_element)
 {
   // #pragma HLS dataflow
 
   load_bufferB(B, bufferB, row);
-  load_multipliers(multipliers, bufferMultipliers, row);
+  load_multipliers(A, bufferMultipliers, norm, row, a_norm_element);
 }
 
 void load_A(float A[SIZE * SIZE], \
     p16x32f bufferA[TILE_SIZE][TILE_SIZE / PACK_COUNT], \
-    float norm_line[SIZE], \
     p16x32f bufferNormLine[TILE_SIZE / PACK_COUNT], \
-    int row, int col)
+    int norm, int row, int col)
 {
   // #pragma HLS dataflow
 
   load_bufferA(A, bufferA, row, col);
-  load_norm_line(norm_line, bufferNormLine, col);
+  load_norm_line(A, bufferNormLine, norm, col);
 }
 
 void sub_gauss(float A[SIZE * SIZE], float B[SIZE], int norm,
-               float b_norm_element, float norm_line[SIZE],
-               float multipliers[SIZE])
+               float a_norm_element, float b_norm_element)
 {
 #pragma HLS inline off
   int row, col;
@@ -291,9 +294,9 @@ void sub_gauss(float A[SIZE * SIZE], float B[SIZE], int norm,
   p16x32f bufferNormLine[TILE_SIZE / PACK_COUNT];
   float bufferMultipliers[TILE_SIZE];
 
-      // aggregate is used to ensure vitis treats the packed types as simply one large data type
-#pragma HLS aggregate variable=bufferA
-#pragma HLS aggregate variable=bufferNormLine
+// aggregate is used to ensure vitis treats the packed types as simply one large data type
+#pragma HLS aggregate variable=bufferA 
+#pragma HLS aggregate variable=bufferNormLine 
 
 #pragma HLS array_partition variable = bufferA complete dim = 2
 #pragma HLS array_partition variable = bufferB complete
@@ -303,7 +306,7 @@ void sub_gauss(float A[SIZE * SIZE], float B[SIZE], int norm,
 row_tile:
   for (row = 0; row < SIZE; row += TILE_SIZE)
   {
-    load_B(B, bufferB, multipliers, bufferMultipliers, row);
+    load_B(B, bufferB, A, bufferMultipliers, norm, row, a_norm_element);
 
     compute_B(bufferB, bufferMultipliers,
               norm, b_norm_element,
@@ -314,7 +317,7 @@ row_tile:
   col_tile:
     for (col = 0; col < SIZE; col += TILE_SIZE)
     {
-      load_A(A, bufferA, norm_line, bufferNormLine, row, col);
+      load_A(A, bufferA, bufferNormLine, norm, row, col);
 
       compute_A(bufferA, bufferNormLine,
                 bufferMultipliers,
@@ -324,30 +327,83 @@ row_tile:
               row, col);
     }
   }
+
 }
 
-void back_substitution(float A[SIZE * SIZE], float B[SIZE], float X[SIZE], int row)
+void back_load_A_row(float A[SIZE * SIZE], float bufferA_row[TILE_SIZE], int row, int col){
+#pragma HLS inline off
+  int col_inner;
+  int current_col;
+
+  load_A_row:
+  for (col_inner = 0; col_inner < TILE_SIZE; col_inner++)
+  {
+    #pragma HLS pipeline II=1
+    current_col = col - col_inner;
+    bufferA_row[col_inner] = A[row * SIZE + current_col];
+  }
+}
+void back_load_X(float X[SIZE], float bufferX[SIZE], int col){
+#pragma HLS inline off
+  int col_inner;
+  int current_col;
+
+  load_X:
+  for (col_inner = 0; col_inner < TILE_SIZE; col_inner++)
+  {
+    #pragma HLS pipeline II=1
+    current_col = col - col_inner;
+    bufferX[col_inner] = X[current_col];
+  }
+}
+
+void compute_X(float x_row_value[1], float bufferA_row[TILE_SIZE], float bufferX[TILE_SIZE], int row, int col){
+#pragma HLS inline off
+  int col_inner;
+  int current_col;
+
+
+  compute_X:
+  for (col_inner = 0; col_inner < TILE_SIZE; col_inner++)
+  {
+    #pragma HLS pipeline II=8
+    // #pragma HLS unroll
+    current_col = col - col_inner;
+
+    if (current_col > row)
+    {
+      x_row_value[0] -= bufferA_row[col_inner] * bufferX[col_inner];
+    }
+  }
+
+}
+
+void store_X(float X[SIZE], float x_row_value[1], float diagonal_element, int row){
+#pragma HLS inline off
+  X[row] = x_row_value[0] / diagonal_element; // Divide by diagonal element because the diagonal of A was not normalized
+}
+
+void back_substitution(float A[SIZE * SIZE], float X[SIZE], float X_row_value[1], float diagonal_element, int row)
 {
 #pragma HLS inline off
-  int col, col_inner;
-  int current_col;
-  X[row] = B[row];
+  int col;
+  
+  float bufferA[TILE_SIZE];
+  float bufferX[TILE_SIZE];
+
+#pragma HLS array_partition variable = bufferA complete
+#pragma HLS array_partition variable = bufferX complete
 
   back_col_tiled:
     for (col = SIZE - 1; col >= 0; col -= TILE_SIZE)
     {
-      back_col_inner:
-        for (col_inner = 0; col_inner < TILE_SIZE; col_inner++)
-        {
-          current_col = col - col_inner;
-          if (current_col > row)
-          {
-            X[row] -= A[row * SIZE + current_col] * X[current_col];
-          }
-        }
+      back_load_A_row(A, bufferA, row, col);
+      back_load_X(X, bufferX, col);
+
+      compute_X(X_row_value, bufferA, bufferX, row, col);
     }
 
-  X[row] /= A[row * SIZE + row];
+  store_X(X, X_row_value, diagonal_element, row);
 
 }
 
@@ -355,11 +411,12 @@ void gauss(float A[SIZE * SIZE], float B[SIZE], float X[SIZE])
 {
   int norm, row, col; /* Normalization row, and zeroing
                        * element row and col */
-  float multiplier;
   float norm_line[SIZE];
   float multipliers[SIZE];
   float a_norm_element;
   float b_norm_element;
+  float diagonal_element;
+  float X_row_element[1];
 
 /* Gaussian elimination */
 norm:
@@ -367,22 +424,7 @@ norm:
   {
     a_norm_element = A[norm * SIZE + norm];
     b_norm_element = B[norm];
-
-    norm_line:
-      for (int i = 0; i < SIZE; i++)
-      {
-#pragma HLS pipeline II = 1
-        norm_line[i] = A[norm * SIZE + i];
-      }
-
-    multipliers:
-      for (int i = 0; i < SIZE; i++)
-      {
-#pragma HLS pipeline II = 1
-        multipliers[i] = A[i * SIZE + norm] / a_norm_element;
-      }
-
-    sub_gauss(A, B, norm, b_norm_element, norm_line, multipliers);
+    sub_gauss(A, B, norm, a_norm_element, b_norm_element);
   }
 /* (Diagonal elements are not normalized to 1.  This is treated in back
  * substitution.)
@@ -392,6 +434,8 @@ norm:
 back_row:
   for (row = SIZE - 1; row >= 0; row--)
   {
-    back_substitution(A, B, X, row);
+    X_row_element[0] = B[row];
+    diagonal_element = A[row * SIZE + row];
+    back_substitution(A, X, X_row_element, diagonal_element, row);
   }
 }
