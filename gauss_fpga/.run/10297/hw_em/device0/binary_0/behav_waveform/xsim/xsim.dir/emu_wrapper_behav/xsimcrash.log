@@ -1,0 +1,12 @@
+Printing stacktrace...
+
+[0] xsim.dir/emu_wrapper_behav/xsimk(+0x69b4285) [0x55ee87ed7285]
+[1] /cvmfs/rcg.sfu.ca/sw/env/neutral/x86_64/TOOLS/XILINX/V2020.2/Vivado/2020.2/lib/lnx64.o/librdi_simulator_kernel.so(+0x2a9d20) [0x7fd2403c3d20]
+[2] /cvmfs/rcg.sfu.ca/sw/env/neutral/x86_64/TOOLS/XILINX/V2020.2/Vivado/2020.2/lib/lnx64.o/librdi_simulator_kernel.so(ISIMK::Kernel::callProcessExecuteFunctions()+0x5c) [0x7fd2403c358c]
+[3] xsim.dir/emu_wrapper_behav/xsimk(+0x13bf95bb) [0x55ee9511c5bb]
+[4] /cvmfs/rcg.sfu.ca/sw/env/neutral/x86_64/TOOLS/XILINX/V2020.2/Vivado/2020.2/lib/lnx64.o/librdi_simulator_kernel.so(ISIMK::Kernel::initializeSimulation()+0x74) [0x7fd2403c3754]
+[5] /cvmfs/rcg.sfu.ca/sw/env/neutral/x86_64/TOOLS/XILINX/V2020.2/Vivado/2020.2/lib/lnx64.o/librdi_simulator_kernel.so(ISIMK::GDBMIHost::runSimulationLoop()+0x134) [0x7fd2403b18d4]
+[6] /cvmfs/rcg.sfu.ca/sw/env/neutral/x86_64/TOOLS/XILINX/V2020.2/Vivado/2020.2/lib/lnx64.o/Ubuntu/18/libstdc++.so.6(+0xbe733) [0x7fd23c171733]
+[7] /lib/x86_64-linux-gnu/libpthread.so.0(+0x76db) [0x7fd23b8e76db]
+[8] /lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7fd23c56261f]
+Done

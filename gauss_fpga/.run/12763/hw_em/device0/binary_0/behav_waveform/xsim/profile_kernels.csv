@@ -1,0 +1,2 @@
+Compute Units: Running Time and Stalls
+Compute Unit, Running Time (us), Intra-Kernel Dataflow Stalls (%), External Memory Stalls (%), External Stream Stalls (%)

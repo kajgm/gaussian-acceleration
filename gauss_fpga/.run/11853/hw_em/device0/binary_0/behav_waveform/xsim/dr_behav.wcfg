@@ -1,0 +1,2138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <wvobject type="group" fp_name="HLS_Process_Summary_group">
+      <obj_property name="label">HLS Process Summary</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="group" fp_name="/emu_wrapper/emu_i/gauss_1/inst/">
+         <obj_property name="label">/emu_wrapper/emu_i/gauss_1/inst/</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="group" fp_name="grp_back_substitution_fu_318">
+            <obj_property name="label">grp_back_substitution_fu_318</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="group" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/grp_back_substitution_fu_318">
+               <obj_property name="label">grp_back_substitution_fu_318</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_back_substitution_fu_318</obj_property>
+               <obj_property name="ObjectShortName">grp_back_substitution_fu_318</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/grp_back_substitution_fu_318.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/grp_back_substitution_fu_318.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/grp_back_substitution_fu_318.dataflowTxTooltipData</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="grp_sub_gauss_fu_328">
+            <obj_property name="label">grp_sub_gauss_fu_328</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="group" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_sub_gauss_fu_328">
+               <obj_property name="label">grp_sub_gauss_fu_328</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="UseFullPath">true</obj_property>
+               <obj_property name="ElementShortName">grp_sub_gauss_fu_328</obj_property>
+               <obj_property name="ObjectShortName">grp_sub_gauss_fu_328</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="CustomSignalColor">turquoise</obj_property>
+               <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+               <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_sub_gauss_fu_328.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_sub_gauss_fu_328.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_sub_gauss_fu_328.dataflowTxTooltipData</obj_property>
+            </wvobject>
+            <wvobject type="group" fp_name="grp_load_bufferA_fu_253">
+               <obj_property name="label">grp_load_bufferA_fu_253</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+               <wvobject type="group" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/grp_load_bufferA_fu_253">
+                  <obj_property name="label">grp_load_bufferA_fu_253</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="UseFullPath">true</obj_property>
+                  <obj_property name="ElementShortName">grp_load_bufferA_fu_253</obj_property>
+                  <obj_property name="ObjectShortName">grp_load_bufferA_fu_253</obj_property>
+                  <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+                  <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                  <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+                  <obj_property name="CustomSignalColor">turquoise</obj_property>
+                  <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+                  <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/grp_load_bufferA_fu_253.dataflowTxWaveData.Cycles</obj_property>
+                  <obj_property name="Value_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/grp_load_bufferA_fu_253.dataflowTxWaveData.OutStanding</obj_property>
+                  <obj_property name="Detail_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/grp_load_bufferA_fu_253.dataflowTxTooltipData</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="grp_store_A_fu_264">
+               <obj_property name="label">grp_store_A_fu_264</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+               <wvobject type="group" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/grp_store_A_fu_264">
+                  <obj_property name="label">grp_store_A_fu_264</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="UseFullPath">true</obj_property>
+                  <obj_property name="ElementShortName">grp_store_A_fu_264</obj_property>
+                  <obj_property name="ObjectShortName">grp_store_A_fu_264</obj_property>
+                  <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+                  <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                  <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+                  <obj_property name="CustomSignalColor">turquoise</obj_property>
+                  <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+                  <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/grp_store_A_fu_264.dataflowTxWaveData.Cycles</obj_property>
+                  <obj_property name="Value_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/grp_store_A_fu_264.dataflowTxWaveData.OutStanding</obj_property>
+                  <obj_property name="Detail_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/grp_store_A_fu_264.dataflowTxTooltipData</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="grp_compute_A_fu_275">
+               <obj_property name="label">grp_compute_A_fu_275</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+               <wvobject type="group" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/grp_compute_A_fu_275">
+                  <obj_property name="label">grp_compute_A_fu_275</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="UseFullPath">true</obj_property>
+                  <obj_property name="ElementShortName">grp_compute_A_fu_275</obj_property>
+                  <obj_property name="ObjectShortName">grp_compute_A_fu_275</obj_property>
+                  <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+                  <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                  <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+                  <obj_property name="CustomSignalColor">turquoise</obj_property>
+                  <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+                  <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/grp_compute_A_fu_275.dataflowTxWaveData.Cycles</obj_property>
+                  <obj_property name="Value_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/grp_compute_A_fu_275.dataflowTxWaveData.OutStanding</obj_property>
+                  <obj_property name="Detail_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/grp_compute_A_fu_275.dataflowTxTooltipData</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="grp_compute_B_fu_301">
+               <obj_property name="label">grp_compute_B_fu_301</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+               <wvobject type="group" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/grp_compute_B_fu_301">
+                  <obj_property name="label">grp_compute_B_fu_301</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="UseFullPath">true</obj_property>
+                  <obj_property name="ElementShortName">grp_compute_B_fu_301</obj_property>
+                  <obj_property name="ObjectShortName">grp_compute_B_fu_301</obj_property>
+                  <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+                  <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                  <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+                  <obj_property name="CustomSignalColor">turquoise</obj_property>
+                  <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+                  <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/grp_compute_B_fu_301.dataflowTxWaveData.Cycles</obj_property>
+                  <obj_property name="Value_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/grp_compute_B_fu_301.dataflowTxWaveData.OutStanding</obj_property>
+                  <obj_property name="Detail_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/grp_compute_B_fu_301.dataflowTxTooltipData</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="grp_load_bufferB_fu_340">
+               <obj_property name="label">grp_load_bufferB_fu_340</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+               <wvobject type="group" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/grp_load_bufferB_fu_340">
+                  <obj_property name="label">grp_load_bufferB_fu_340</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="UseFullPath">true</obj_property>
+                  <obj_property name="ElementShortName">grp_load_bufferB_fu_340</obj_property>
+                  <obj_property name="ObjectShortName">grp_load_bufferB_fu_340</obj_property>
+                  <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+                  <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                  <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+                  <obj_property name="CustomSignalColor">turquoise</obj_property>
+                  <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+                  <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/grp_load_bufferB_fu_340.dataflowTxWaveData.Cycles</obj_property>
+                  <obj_property name="Value_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/grp_load_bufferB_fu_340.dataflowTxWaveData.OutStanding</obj_property>
+                  <obj_property name="Detail_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/grp_load_bufferB_fu_340.dataflowTxTooltipData</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="grp_store_B_fu_364">
+               <obj_property name="label">grp_store_B_fu_364</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+               <wvobject type="group" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/grp_store_B_fu_364">
+                  <obj_property name="label">grp_store_B_fu_364</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="UseFullPath">true</obj_property>
+                  <obj_property name="ElementShortName">grp_store_B_fu_364</obj_property>
+                  <obj_property name="ObjectShortName">grp_store_B_fu_364</obj_property>
+                  <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+                  <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                  <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+                  <obj_property name="CustomSignalColor">turquoise</obj_property>
+                  <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+                  <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/grp_store_B_fu_364.dataflowTxWaveData.Cycles</obj_property>
+                  <obj_property name="Value_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/grp_store_B_fu_364.dataflowTxWaveData.OutStanding</obj_property>
+                  <obj_property name="Detail_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/grp_store_B_fu_364.dataflowTxTooltipData</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="grp_load_multipliers_fu_388">
+               <obj_property name="label">grp_load_multipliers_fu_388</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+               <wvobject type="group" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/grp_load_multipliers_fu_388">
+                  <obj_property name="label">grp_load_multipliers_fu_388</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="UseFullPath">true</obj_property>
+                  <obj_property name="ElementShortName">grp_load_multipliers_fu_388</obj_property>
+                  <obj_property name="ObjectShortName">grp_load_multipliers_fu_388</obj_property>
+                  <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+                  <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                  <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+                  <obj_property name="CustomSignalColor">turquoise</obj_property>
+                  <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+                  <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/grp_load_multipliers_fu_388.dataflowTxWaveData.Cycles</obj_property>
+                  <obj_property name="Value_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/grp_load_multipliers_fu_388.dataflowTxWaveData.OutStanding</obj_property>
+                  <obj_property name="Detail_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/grp_load_multipliers_fu_388.dataflowTxTooltipData</obj_property>
+               </wvobject>
+            </wvobject>
+            <wvobject type="group" fp_name="grp_load_norm_line_fu_411">
+               <obj_property name="label">grp_load_norm_line_fu_411</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+               <wvobject type="group" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_norm_line_fu_411/grp_load_norm_line_fu_411">
+                  <obj_property name="label">grp_load_norm_line_fu_411</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="UseFullPath">true</obj_property>
+                  <obj_property name="ElementShortName">grp_load_norm_line_fu_411</obj_property>
+                  <obj_property name="ObjectShortName">grp_load_norm_line_fu_411</obj_property>
+                  <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+                  <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                  <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+                  <obj_property name="CustomSignalColor">turquoise</obj_property>
+                  <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
+                  <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_norm_line_fu_411/grp_load_norm_line_fu_411.dataflowTxWaveData.Cycles</obj_property>
+                  <obj_property name="Value_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_norm_line_fu_411/grp_load_norm_line_fu_411.dataflowTxWaveData.OutStanding</obj_property>
+                  <obj_property name="Detail_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_norm_line_fu_411/grp_load_norm_line_fu_411.dataflowTxTooltipData</obj_property>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="device_group">
+      <obj_property name="label">Device &quot;xilinx_u50_gen3x16_xdma_201920_3-0&quot;</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="group" fp_name="bin_group">
+         <obj_property name="label">Binary Container &quot;gauss.link&quot;</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="group" fp_name="kernel_group">
+            <obj_property name="label">Kernel &quot;gauss&quot; 1:1:1</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="group" fp_name="cu_group">
+               <obj_property name="label">Compute Unit: gauss_1</obj_property>
+               <obj_property name="DisplayName">label</obj_property>
+               <obj_property name="isExpanded"></obj_property>
+               <obj_property name="Description_Data">Activity for compute unit gauss_1</obj_property>
+               <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+               <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+               <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+               <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/ap_idle</obj_property>
+               <wvobject type="vbus" fp_name="stall_vbus">
+                  <obj_property name="label">CU Stalls (%)</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="Description_Data">CU Functions that are stalling (%)</obj_property>
+                  <obj_property name="Radix">BITCOUNTRADIX</obj_property>
+                  <obj_property name="SHOWPERCENTCOUNT">true</obj_property>
+                  <obj_property name="ShowWaveText">true</obj_property>
+                  <obj_property name="EnumTransactionColorTable">3ffff=blank</obj_property>
+                  <obj_property name="EnumTransactionValueTable">3ffff=blank</obj_property>
+                  <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                  <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                  <obj_property name="UseCustomSignalColor">true</obj_property>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/ap_ext_blocking_n">
+                     <obj_property name="label">grp_back_substitution_fu_318: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/ap_str_blocking_n">
+                     <obj_property name="label">grp_back_substitution_fu_318: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/ap_ext_blocking_n">
+                     <obj_property name="label">grp_load_bufferA_fu_253: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/ap_str_blocking_n">
+                     <obj_property name="label">grp_load_bufferA_fu_253: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/ap_ext_blocking_n">
+                     <obj_property name="label">grp_store_A_fu_264: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/ap_str_blocking_n">
+                     <obj_property name="label">grp_store_A_fu_264: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/ap_ext_blocking_n">
+                     <obj_property name="label">grp_compute_A_fu_275: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/ap_str_blocking_n">
+                     <obj_property name="label">grp_compute_A_fu_275: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/ap_ext_blocking_n">
+                     <obj_property name="label">grp_compute_B_fu_301: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/ap_str_blocking_n">
+                     <obj_property name="label">grp_compute_B_fu_301: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/ap_ext_blocking_n">
+                     <obj_property name="label">grp_load_bufferB_fu_340: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/ap_str_blocking_n">
+                     <obj_property name="label">grp_load_bufferB_fu_340: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/ap_ext_blocking_n">
+                     <obj_property name="label">grp_store_B_fu_364: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/ap_str_blocking_n">
+                     <obj_property name="label">grp_store_B_fu_364: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/ap_ext_blocking_n">
+                     <obj_property name="label">grp_load_multipliers_fu_388: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/ap_str_blocking_n">
+                     <obj_property name="label">grp_load_multipliers_fu_388: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_norm_line_fu_411/ap_ext_blocking_n">
+                     <obj_property name="label">grp_load_norm_line_fu_411: External Memory</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+                  <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_norm_line_fu_411/ap_str_blocking_n">
+                     <obj_property name="label">grp_load_norm_line_fu_411: External Stream</obj_property>
+                     <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                     <obj_property name="ShowWaveText">false</obj_property>
+                     <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="trans_group">
+                  <obj_property name="label">Data Transfers</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="isExpanded"></obj_property>
+                  <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/gauss_1/m_axi_gmem">
+                  </wvobject>
+               </wvobject>
+               <wvobject type="group" fp_name="functions">
+                  <obj_property name="label">User Functions</obj_property>
+                  <obj_property name="DisplayName">label</obj_property>
+                  <obj_property name="isExpanded"></obj_property>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_back_substitution_fu_318</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_back_substitution_fu_318</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/grp_back_substitution_fu_318">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/grp_back_substitution_fu_318">
+                           <obj_property name="ElementShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="ObjectShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="label">Non-Dataflow Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Non-Dataflow Activity for function grp_back_substitution_fu_318</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject type="group" fp_name="mem_group">
+                           <obj_property name="label">gmem</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="isExpanded"></obj_property>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Read Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_ARADDR">
+                                 <obj_property name="label">ARADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_ARLEN">
+                                 <obj_property name="label">ARLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_ARVALID">
+                                 <obj_property name="label">ARVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_ARREADY">
+                                 <obj_property name="label">ARREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Read Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_RDATA">
+                                 <obj_property name="label">RDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_RVALID">
+                                 <obj_property name="label">RVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_RREADY">
+                                 <obj_property name="label">RREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_RLAST">
+                                 <obj_property name="label">RLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Write Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_AWADDR">
+                                 <obj_property name="label">AWADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_AWLEN">
+                                 <obj_property name="label">AWLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_AWVALID">
+                                 <obj_property name="label">AWVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_AWREADY">
+                                 <obj_property name="label">AWREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Write Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_WDATA">
+                                 <obj_property name="label">WDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_WVALID">
+                                 <obj_property name="label">WVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_WREADY">
+                                 <obj_property name="label">WREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/m_axi_gmem_WLAST">
+                                 <obj_property name="label">WLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/A">
+                           <obj_property name="label">A</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/B">
+                           <obj_property name="label">B</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/X">
+                           <obj_property name="label">X</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_back_substitution_fu_318/row">
+                           <obj_property name="label">row</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_sub_gauss_fu_328</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_sub_gauss_fu_328</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_sub_gauss_fu_328">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_sub_gauss_fu_328">
+                           <obj_property name="ElementShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="ObjectShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="label">Non-Dataflow Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Non-Dataflow Activity for function grp_sub_gauss_fu_328</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject type="group" fp_name="mem_group">
+                           <obj_property name="label">gmem</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="isExpanded"></obj_property>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Read Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_ARADDR">
+                                 <obj_property name="label">ARADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_ARLEN">
+                                 <obj_property name="label">ARLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_ARVALID">
+                                 <obj_property name="label">ARVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_ARREADY">
+                                 <obj_property name="label">ARREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Read Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_RDATA">
+                                 <obj_property name="label">RDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_RVALID">
+                                 <obj_property name="label">RVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_RREADY">
+                                 <obj_property name="label">RREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_RLAST">
+                                 <obj_property name="label">RLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Write Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_AWADDR">
+                                 <obj_property name="label">AWADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_AWLEN">
+                                 <obj_property name="label">AWLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_AWVALID">
+                                 <obj_property name="label">AWVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_AWREADY">
+                                 <obj_property name="label">AWREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Write Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_WDATA">
+                                 <obj_property name="label">WDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_WVALID">
+                                 <obj_property name="label">WVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_WREADY">
+                                 <obj_property name="label">WREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/m_axi_gmem_WLAST">
+                                 <obj_property name="label">WLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/A">
+                           <obj_property name="label">A</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/B">
+                           <obj_property name="label">B</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/norm">
+                           <obj_property name="label">norm</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/b_norm_element">
+                           <obj_property name="label">b_norm_element</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/norm_line_q0">
+                           <obj_property name="label">norm_line_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/norm_line_q1">
+                           <obj_property name="label">norm_line_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/multipliers_q0">
+                           <obj_property name="label">multipliers_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_sub_gauss_fu_328/grp_load_bufferA_fu_253</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_sub_gauss_fu_328/grp_load_bufferA_fu_253</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/grp_load_bufferA_fu_253">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/grp_load_bufferA_fu_253">
+                           <obj_property name="ElementShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="ObjectShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="label">Non-Dataflow Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Non-Dataflow Activity for function grp_sub_gauss_fu_328/grp_load_bufferA_fu_253</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject type="group" fp_name="mem_group">
+                           <obj_property name="label">gmem</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="isExpanded"></obj_property>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Read Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_ARADDR">
+                                 <obj_property name="label">ARADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_ARLEN">
+                                 <obj_property name="label">ARLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_ARVALID">
+                                 <obj_property name="label">ARVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_ARREADY">
+                                 <obj_property name="label">ARREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Read Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_RDATA">
+                                 <obj_property name="label">RDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_RVALID">
+                                 <obj_property name="label">RVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_RREADY">
+                                 <obj_property name="label">RREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_RLAST">
+                                 <obj_property name="label">RLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Write Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_AWADDR">
+                                 <obj_property name="label">AWADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_AWLEN">
+                                 <obj_property name="label">AWLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_AWVALID">
+                                 <obj_property name="label">AWVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_AWREADY">
+                                 <obj_property name="label">AWREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Write Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_WDATA">
+                                 <obj_property name="label">WDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_WVALID">
+                                 <obj_property name="label">WVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_WREADY">
+                                 <obj_property name="label">WREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/m_axi_gmem_WLAST">
+                                 <obj_property name="label">WLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/A">
+                           <obj_property name="label">A</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/bufA_d0">
+                           <obj_property name="label">bufA_d0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/row">
+                           <obj_property name="label">row</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferA_fu_253/col">
+                           <obj_property name="label">col</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_sub_gauss_fu_328/grp_store_A_fu_264</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_sub_gauss_fu_328/grp_store_A_fu_264</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/grp_store_A_fu_264">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/grp_store_A_fu_264">
+                           <obj_property name="ElementShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="ObjectShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="label">Non-Dataflow Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Non-Dataflow Activity for function grp_sub_gauss_fu_328/grp_store_A_fu_264</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject type="group" fp_name="mem_group">
+                           <obj_property name="label">gmem</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="isExpanded"></obj_property>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Read Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_ARADDR">
+                                 <obj_property name="label">ARADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_ARLEN">
+                                 <obj_property name="label">ARLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_ARVALID">
+                                 <obj_property name="label">ARVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_ARREADY">
+                                 <obj_property name="label">ARREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Read Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_RDATA">
+                                 <obj_property name="label">RDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_RVALID">
+                                 <obj_property name="label">RVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_RREADY">
+                                 <obj_property name="label">RREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_RLAST">
+                                 <obj_property name="label">RLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Write Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_AWADDR">
+                                 <obj_property name="label">AWADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_AWLEN">
+                                 <obj_property name="label">AWLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_AWVALID">
+                                 <obj_property name="label">AWVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_AWREADY">
+                                 <obj_property name="label">AWREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Write Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_WDATA">
+                                 <obj_property name="label">WDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_WVALID">
+                                 <obj_property name="label">WVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_WREADY">
+                                 <obj_property name="label">WREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/m_axi_gmem_WLAST">
+                                 <obj_property name="label">WLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/A">
+                           <obj_property name="label">A</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/bufA_q0">
+                           <obj_property name="label">bufA_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/row">
+                           <obj_property name="label">row</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_A_fu_264/col">
+                           <obj_property name="label">col</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_sub_gauss_fu_328/grp_compute_A_fu_275</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_sub_gauss_fu_328/grp_compute_A_fu_275</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/grp_compute_A_fu_275">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/grp_compute_A_fu_275">
+                           <obj_property name="ElementShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="ObjectShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="label">Non-Dataflow Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Non-Dataflow Activity for function grp_sub_gauss_fu_328/grp_compute_A_fu_275</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/bufA_d0">
+                           <obj_property name="label">bufA_d0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/bufA_q1">
+                           <obj_property name="label">bufA_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read">
+                           <obj_property name="label">p_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read1">
+                           <obj_property name="label">p_read1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read2">
+                           <obj_property name="label">p_read2</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read3">
+                           <obj_property name="label">p_read3</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read4">
+                           <obj_property name="label">p_read4</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read5">
+                           <obj_property name="label">p_read5</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read6">
+                           <obj_property name="label">p_read6</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read7">
+                           <obj_property name="label">p_read7</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read8">
+                           <obj_property name="label">p_read8</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read9">
+                           <obj_property name="label">p_read9</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read10">
+                           <obj_property name="label">p_read10</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read11">
+                           <obj_property name="label">p_read11</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read12">
+                           <obj_property name="label">p_read12</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read13">
+                           <obj_property name="label">p_read13</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read14">
+                           <obj_property name="label">p_read14</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read15">
+                           <obj_property name="label">p_read15</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/p_read16">
+                           <obj_property name="label">p_read16</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/norm">
+                           <obj_property name="label">norm</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/row">
+                           <obj_property name="label">row</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_A_fu_275/col">
+                           <obj_property name="label">col</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_sub_gauss_fu_328/grp_compute_B_fu_301</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_sub_gauss_fu_328/grp_compute_B_fu_301</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/grp_compute_B_fu_301">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/grp_compute_B_fu_301">
+                           <obj_property name="ElementShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="ObjectShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="label">Non-Dataflow Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Non-Dataflow Activity for function grp_sub_gauss_fu_328/grp_compute_B_fu_301</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_0_read">
+                           <obj_property name="label">bufB_0_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_1_read">
+                           <obj_property name="label">bufB_1_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_2_read">
+                           <obj_property name="label">bufB_2_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_3_read">
+                           <obj_property name="label">bufB_3_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_4_read">
+                           <obj_property name="label">bufB_4_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_5_read">
+                           <obj_property name="label">bufB_5_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_6_read">
+                           <obj_property name="label">bufB_6_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_7_read">
+                           <obj_property name="label">bufB_7_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_8_read">
+                           <obj_property name="label">bufB_8_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_9_read">
+                           <obj_property name="label">bufB_9_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_10_read">
+                           <obj_property name="label">bufB_10_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_11_read">
+                           <obj_property name="label">bufB_11_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_12_read">
+                           <obj_property name="label">bufB_12_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_13_read">
+                           <obj_property name="label">bufB_13_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_14_read">
+                           <obj_property name="label">bufB_14_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufB_15_read">
+                           <obj_property name="label">bufB_15_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_0_read">
+                           <obj_property name="label">bufMultipliers_0_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_1_read">
+                           <obj_property name="label">bufMultipliers_1_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_2_read">
+                           <obj_property name="label">bufMultipliers_2_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_3_read">
+                           <obj_property name="label">bufMultipliers_3_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_4_read">
+                           <obj_property name="label">bufMultipliers_4_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_5_read">
+                           <obj_property name="label">bufMultipliers_5_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_6_read">
+                           <obj_property name="label">bufMultipliers_6_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_7_read">
+                           <obj_property name="label">bufMultipliers_7_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_8_read">
+                           <obj_property name="label">bufMultipliers_8_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_9_read">
+                           <obj_property name="label">bufMultipliers_9_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_10_read">
+                           <obj_property name="label">bufMultipliers_10_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_11_read">
+                           <obj_property name="label">bufMultipliers_11_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_12_read">
+                           <obj_property name="label">bufMultipliers_12_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_13_read">
+                           <obj_property name="label">bufMultipliers_13_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_14_read">
+                           <obj_property name="label">bufMultipliers_14_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/bufMultipliers_15_read">
+                           <obj_property name="label">bufMultipliers_15_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/norm">
+                           <obj_property name="label">norm</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/b_norm_element">
+                           <obj_property name="label">b_norm_element</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_compute_B_fu_301/row">
+                           <obj_property name="label">row</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_sub_gauss_fu_328/grp_load_bufferB_fu_340</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_sub_gauss_fu_328/grp_load_bufferB_fu_340</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/grp_load_bufferB_fu_340">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/grp_load_bufferB_fu_340">
+                           <obj_property name="ElementShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="ObjectShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="label">Non-Dataflow Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Non-Dataflow Activity for function grp_sub_gauss_fu_328/grp_load_bufferB_fu_340</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject type="group" fp_name="mem_group">
+                           <obj_property name="label">gmem</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="isExpanded"></obj_property>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Read Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_ARADDR">
+                                 <obj_property name="label">ARADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_ARLEN">
+                                 <obj_property name="label">ARLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_ARVALID">
+                                 <obj_property name="label">ARVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_ARREADY">
+                                 <obj_property name="label">ARREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Read Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_RDATA">
+                                 <obj_property name="label">RDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_RVALID">
+                                 <obj_property name="label">RVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_RREADY">
+                                 <obj_property name="label">RREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_RLAST">
+                                 <obj_property name="label">RLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Write Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_AWADDR">
+                                 <obj_property name="label">AWADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_AWLEN">
+                                 <obj_property name="label">AWLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_AWVALID">
+                                 <obj_property name="label">AWVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_AWREADY">
+                                 <obj_property name="label">AWREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Write Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_WDATA">
+                                 <obj_property name="label">WDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_WVALID">
+                                 <obj_property name="label">WVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_WREADY">
+                                 <obj_property name="label">WREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/m_axi_gmem_WLAST">
+                                 <obj_property name="label">WLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/B">
+                           <obj_property name="label">B</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_0_read">
+                           <obj_property name="label">bufB_0_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_1_read">
+                           <obj_property name="label">bufB_1_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_2_read">
+                           <obj_property name="label">bufB_2_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_3_read">
+                           <obj_property name="label">bufB_3_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_4_read">
+                           <obj_property name="label">bufB_4_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_5_read">
+                           <obj_property name="label">bufB_5_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_6_read">
+                           <obj_property name="label">bufB_6_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_7_read">
+                           <obj_property name="label">bufB_7_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_8_read">
+                           <obj_property name="label">bufB_8_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_9_read">
+                           <obj_property name="label">bufB_9_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_10_read">
+                           <obj_property name="label">bufB_10_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_11_read">
+                           <obj_property name="label">bufB_11_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_12_read">
+                           <obj_property name="label">bufB_12_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_13_read">
+                           <obj_property name="label">bufB_13_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_14_read">
+                           <obj_property name="label">bufB_14_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/bufB_15_read">
+                           <obj_property name="label">bufB_15_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_bufferB_fu_340/row">
+                           <obj_property name="label">row</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_sub_gauss_fu_328/grp_store_B_fu_364</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_sub_gauss_fu_328/grp_store_B_fu_364</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/grp_store_B_fu_364">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/grp_store_B_fu_364">
+                           <obj_property name="ElementShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="ObjectShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="label">Non-Dataflow Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Non-Dataflow Activity for function grp_sub_gauss_fu_328/grp_store_B_fu_364</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject type="group" fp_name="mem_group">
+                           <obj_property name="label">gmem</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="isExpanded"></obj_property>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Read Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_ARADDR">
+                                 <obj_property name="label">ARADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_ARLEN">
+                                 <obj_property name="label">ARLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_ARVALID">
+                                 <obj_property name="label">ARVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_ARREADY">
+                                 <obj_property name="label">ARREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Read Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Read Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_RDATA">
+                                 <obj_property name="label">RDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_RVALID">
+                                 <obj_property name="label">RVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_RREADY">
+                                 <obj_property name="label">RREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_RLAST">
+                                 <obj_property name="label">RLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="addr_group">
+                              <obj_property name="label">Write Address</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_AWADDR">
+                                 <obj_property name="label">AWADDR</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_AWLEN">
+                                 <obj_property name="label">AWLEN</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_AWVALID">
+                                 <obj_property name="label">AWVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_AWREADY">
+                                 <obj_property name="label">AWREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                           <wvobject type="group" fp_name="data_group">
+                              <obj_property name="label">Write Data</obj_property>
+                              <obj_property name="DisplayName">label</obj_property>
+                              <obj_property name="isExpanded"></obj_property>
+                              <obj_property name="Description_Data">Write Transactions on function AXI-MM port m_axi_gmem</obj_property>
+                              <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_WDATA">
+                                 <obj_property name="label">WDATA</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_WVALID">
+                                 <obj_property name="label">WVALID</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_WREADY">
+                                 <obj_property name="label">WREADY</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                              <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/m_axi_gmem_WLAST">
+                                 <obj_property name="label">WLAST</obj_property>
+                                 <obj_property name="DisplayName">label</obj_property>
+                              </wvobject>
+                           </wvobject>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/B">
+                           <obj_property name="label">B</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_0_read">
+                           <obj_property name="label">bufB_0_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_1_read">
+                           <obj_property name="label">bufB_1_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_2_read">
+                           <obj_property name="label">bufB_2_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_3_read">
+                           <obj_property name="label">bufB_3_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_4_read">
+                           <obj_property name="label">bufB_4_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_5_read">
+                           <obj_property name="label">bufB_5_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_6_read">
+                           <obj_property name="label">bufB_6_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_7_read">
+                           <obj_property name="label">bufB_7_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_8_read">
+                           <obj_property name="label">bufB_8_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_9_read">
+                           <obj_property name="label">bufB_9_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_10_read">
+                           <obj_property name="label">bufB_10_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_11_read">
+                           <obj_property name="label">bufB_11_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_12_read">
+                           <obj_property name="label">bufB_12_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_13_read">
+                           <obj_property name="label">bufB_13_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_14_read">
+                           <obj_property name="label">bufB_14_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/bufB_15_read">
+                           <obj_property name="label">bufB_15_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_store_B_fu_364/row">
+                           <obj_property name="label">row</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_sub_gauss_fu_328/grp_load_multipliers_fu_388</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_sub_gauss_fu_328/grp_load_multipliers_fu_388</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/grp_load_multipliers_fu_388">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/grp_load_multipliers_fu_388">
+                           <obj_property name="ElementShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="ObjectShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="label">Non-Dataflow Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Non-Dataflow Activity for function grp_sub_gauss_fu_328/grp_load_multipliers_fu_388</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/multipliers_q0">
+                           <obj_property name="label">multipliers_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_0_read">
+                           <obj_property name="label">bufferMultipliers_0_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_1_read">
+                           <obj_property name="label">bufferMultipliers_1_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_2_read">
+                           <obj_property name="label">bufferMultipliers_2_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_3_read">
+                           <obj_property name="label">bufferMultipliers_3_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_4_read">
+                           <obj_property name="label">bufferMultipliers_4_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_5_read">
+                           <obj_property name="label">bufferMultipliers_5_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_6_read">
+                           <obj_property name="label">bufferMultipliers_6_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_7_read">
+                           <obj_property name="label">bufferMultipliers_7_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_8_read">
+                           <obj_property name="label">bufferMultipliers_8_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_9_read">
+                           <obj_property name="label">bufferMultipliers_9_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_10_read">
+                           <obj_property name="label">bufferMultipliers_10_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_11_read">
+                           <obj_property name="label">bufferMultipliers_11_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_12_read">
+                           <obj_property name="label">bufferMultipliers_12_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_13_read">
+                           <obj_property name="label">bufferMultipliers_13_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_14_read">
+                           <obj_property name="label">bufferMultipliers_14_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/bufferMultipliers_15_read">
+                           <obj_property name="label">bufferMultipliers_15_read</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_multipliers_fu_388/row">
+                           <obj_property name="label">row</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+                  <wvobject type="group" fp_name="func_group">
+                     <obj_property name="label">Function: grp_sub_gauss_fu_328/grp_load_norm_line_fu_411</obj_property>
+                     <obj_property name="DisplayName">label</obj_property>
+                     <obj_property name="isExpanded"></obj_property>
+                     <obj_property name="Description_Data">Activity for function grp_sub_gauss_fu_328/grp_load_norm_line_fu_411</obj_property>
+                     <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                     <obj_property name="EnumTransactionValueTable">1=blank;0=Running</obj_property>
+                     <obj_property name="CustomSignalColor">#4DB34D</obj_property>
+                     <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                     <obj_property name="UseCustomSignalColor">true</obj_property>
+                     <obj_property name="Render_Data">/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_norm_line_fu_411/ap_idle</obj_property>
+                     <if_functional fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_norm_line_fu_411/grp_load_norm_line_fu_411">
+                        <wvobject type="protoinst" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_norm_line_fu_411/grp_load_norm_line_fu_411">
+                           <obj_property name="ElementShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="ObjectShortName">Non-Dataflow Activity</obj_property>
+                           <obj_property name="label">Non-Dataflow Activity</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="Description_Data">Non-Dataflow Activity for function grp_sub_gauss_fu_328/grp_load_norm_line_fu_411</obj_property>
+                        </wvobject>
+                     </if_functional>
+                     <wvobject type="vbus" fp_name="stall_vbus">
+                        <obj_property name="label">Function Stalls</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <obj_property name="EnumTransactionColorTable">3=blank</obj_property>
+                        <obj_property name="EnumTransactionValueTable">3=blank;0=stall;1=stall;2=stall</obj_property>
+                        <obj_property name="ShowWaveText">false</obj_property>
+                        <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                        <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                        <obj_property name="UseCustomSignalColor">true</obj_property>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_norm_line_fu_411/ap_ext_blocking_n">
+                           <obj_property name="label">External Memory</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing external memory</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="logic" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_norm_line_fu_411/ap_str_blocking_n">
+                           <obj_property name="label">External Stream</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                           <obj_property name="EnumTransactionColorTable">1=blank</obj_property>
+                           <obj_property name="EnumTransactionValueTable">1=blank;0=stall</obj_property>
+                           <obj_property name="Description_Data">Stalls from accessing pipes between compute units</obj_property>
+                           <obj_property name="ShowWaveText">false</obj_property>
+                           <obj_property name="CustomSignalColor">#FF7F27</obj_property>
+                           <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
+                           <obj_property name="UseCustomSignalColor">true</obj_property>
+                        </wvobject>
+                     </wvobject>
+                     <wvobject type="group" fp_name="io_group">
+                        <obj_property name="label">Function I/O</obj_property>
+                        <obj_property name="DisplayName">label</obj_property>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_norm_line_fu_411/norm_line_q0">
+                           <obj_property name="label">norm_line_q0</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_norm_line_fu_411/norm_line_q1">
+                           <obj_property name="label">norm_line_q1</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                        <wvobject db_ref_id="1" type="array" fp_name="/emu_wrapper/emu_i/gauss_1/inst/grp_sub_gauss_fu_328/grp_load_norm_line_fu_411/col">
+                           <obj_property name="label">col</obj_property>
+                           <obj_property name="DisplayName">label</obj_property>
+                        </wvobject>
+                     </wvobject>
+                  </wvobject>
+               </wvobject>
+            </wvobject>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="HLS_FIFO_group">
+      <obj_property name="label">HLS FIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+</wave_config>

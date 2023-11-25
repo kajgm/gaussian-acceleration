@@ -1,0 +1,415 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_ddr0_ui_clk_0/sim/emu_ddr0_ui_clk_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_ddr0_ui_clk_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_kernel2_clk_0/sim/emu_kernel2_clk_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_kernel2_clk_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_kernel_clk_0/sim/emu_kernel_clk_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_kernel_clk_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_dma_pcie_clk_0/sim/emu_dma_pcie_clk_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_dma_pcie_clk_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/e4e0/hdl/verilog/CuDmaController_mbkb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CuDmaController_mbkb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/e4e0/hdl/verilog/CuDmaController_CQDma_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CuDmaController_CQDma_m_axi
+INFO: [VRFC 10-311] analyzing module CuDmaController_CQDma_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module CuDmaController_CQDma_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module CuDmaController_CQDma_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module CuDmaController_CQDma_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module CuDmaController_CQDma_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module CuDmaController_CQDma_m_axi_read
+INFO: [VRFC 10-311] analyzing module CuDmaController_CQDma_m_axi_write
+INFO: [VRFC 10-2458] undeclared symbol data_valid, assumed default net type wire [/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/e4e0/hdl/verilog/CuDmaController_CQDma_m_axi.v:2040]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/e4e0/hdl/verilog/CuDmaController_CUDma_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CuDmaController_CUDma_m_axi
+INFO: [VRFC 10-311] analyzing module CuDmaController_CUDma_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module CuDmaController_CUDma_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module CuDmaController_CUDma_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module CuDmaController_CUDma_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module CuDmaController_CUDma_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module CuDmaController_CUDma_m_axi_read
+INFO: [VRFC 10-311] analyzing module CuDmaController_CUDma_m_axi_write
+INFO: [VRFC 10-2458] undeclared symbol data_valid, assumed default net type wire [/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/e4e0/hdl/verilog/CuDmaController_CUDma_m_axi.v:2040]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/e4e0/hdl/verilog/CuDmaController.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CuDmaController
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_CuDmaController_0_0/sim/emu_CuDmaController_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_CuDmaController_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/8d9d/hdl/verilog/cuisr_a_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cuisr_a_m_axi
+INFO: [VRFC 10-311] analyzing module cuisr_a_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module cuisr_a_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module cuisr_a_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module cuisr_a_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module cuisr_a_m_axi_throttl
+INFO: [VRFC 10-311] analyzing module cuisr_a_m_axi_read
+INFO: [VRFC 10-311] analyzing module cuisr_a_m_axi_write
+INFO: [VRFC 10-2458] undeclared symbol data_valid, assumed default net type wire [/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/8d9d/hdl/verilog/cuisr_a_m_axi.v:2040]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/8d9d/hdl/verilog/cuisr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cuisr
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_cuisr_0_0/sim/emu_cuisr_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_cuisr_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/embedded_scheduler_hw.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module embedded_scheduler_hw
+WARNING: [VRFC 10-159] /* in comment [/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/embedded_scheduler_hw.v:245]
+INFO: [VRFC 10-2458] undeclared symbol src_clk, assumed default net type wire [/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/embedded_scheduler_hw.v:371]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/CuDmaController.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CuDmaController_rtl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/iob_static.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iob_static
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/isr_irq_handler.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module isr_irq_handler
+WARNING: [VRFC 10-8426] non-net output port 'irq' cannot be initialized at declaration in SystemVerilog mode [/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/isr_irq_handler.sv:60]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/freq_counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module freq_counter
+INFO: [VRFC 10-2458] undeclared symbol user_rst0_ack, assumed default net type wire [/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/freq_counter.v:149]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/CuISR.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CuISR
+INFO: [VRFC 10-2458] undeclared symbol state3, assumed default net type wire [/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/CuISR.v:232]
+INFO: [VRFC 10-2458] undeclared symbol state4, assumed default net type wire [/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/CuISR.v:244]
+INFO: [VRFC 10-2458] undeclared symbol state5, assumed default net type wire [/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/CuISR.v:256]
+INFO: [VRFC 10-2458] undeclared symbol state6, assumed default net type wire [/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/CuISR.v:268]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ipshared/4292/src/irq_handler.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module irq_handler
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_embedded_scheduler_hw_0_0/sim/emu_embedded_scheduler_hw_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_embedded_scheduler_hw_0_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_sim_embedded_scheduler_sw_0_0/sim/emu_sim_embedded_scheduler_sw_0_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_sim_embedded_scheduler_sw_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_xlconcat_0_0/sim/emu_xlconcat_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_xlconcat_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_xlconstant_0_0/sim/emu_xlconstant_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_xlconstant_0_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_sim_xdma_0_0/sim/emu_sim_xdma_0_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_sim_xdma_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_kernel2_clk_1/sim/emu_kernel2_clk_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_kernel2_clk_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_kernel_clk_1/sim/emu_kernel_clk_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_kernel_clk_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_xtlm_simple_intercon_0_0/sim/emu_xtlm_simple_intercon_0_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_xtlm_simple_intercon_0_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_memory_subsystem_0/bd_0/ip/ip_0/sim/bd_3a93_xtlm_simple_intercon_0_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_3a93_xtlm_simple_intercon_0_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_memory_subsystem_0/bd_0/ip/ip_1/sim/bd_3a93_plram_0_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_3a93_plram_0_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_memory_subsystem_0/bd_0/ip/ip_2/sim/bd_3a93_plram_1_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_3a93_plram_1_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_memory_subsystem_0/bd_0/ip/ip_3/sim/bd_3a93_plram_2_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_3a93_plram_2_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_memory_subsystem_0/bd_0/ip/ip_4/sim/bd_3a93_plram_3_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_3a93_plram_3_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_memory_subsystem_0/sim/emu_memory_subsystem_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_memory_subsystem_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hbm_clk_0/sim/emu_hbm_clk_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_hbm_clk_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_0/sim/bd_9678_xtlm_intercon_host_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_host_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_1/sim/bd_9678_xtlm_intercon_kernel_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_kernel_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_2/sim/bd_9678_hbm_ram0_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram0_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_3/sim/bd_9678_xtlm_intercon_hbm0_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm0_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_4/sim/bd_9678_hbm_ram1_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram1_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_5/sim/bd_9678_xtlm_intercon_hbm1_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm1_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_6/sim/bd_9678_hbm_ram2_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram2_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_7/sim/bd_9678_xtlm_intercon_hbm2_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm2_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_8/sim/bd_9678_hbm_ram3_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram3_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_9/sim/bd_9678_xtlm_intercon_hbm3_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm3_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_10/sim/bd_9678_hbm_ram4_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram4_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_11/sim/bd_9678_xtlm_intercon_hbm4_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm4_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_12/sim/bd_9678_hbm_ram5_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram5_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_13/sim/bd_9678_xtlm_intercon_hbm5_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm5_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_14/sim/bd_9678_hbm_ram6_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram6_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_15/sim/bd_9678_xtlm_intercon_hbm6_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm6_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_16/sim/bd_9678_hbm_ram7_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram7_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_17/sim/bd_9678_xtlm_intercon_hbm7_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm7_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_18/sim/bd_9678_hbm_ram8_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram8_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_19/sim/bd_9678_xtlm_intercon_hbm8_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm8_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_20/sim/bd_9678_hbm_ram9_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram9_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_21/sim/bd_9678_xtlm_intercon_hbm9_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm9_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_22/sim/bd_9678_hbm_ram10_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram10_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_23/sim/bd_9678_xtlm_intercon_hbm10_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm10_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_24/sim/bd_9678_hbm_ram11_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram11_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_25/sim/bd_9678_xtlm_intercon_hbm11_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm11_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_26/sim/bd_9678_hbm_ram12_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram12_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_27/sim/bd_9678_xtlm_intercon_hbm12_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm12_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_28/sim/bd_9678_hbm_ram13_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram13_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_29/sim/bd_9678_xtlm_intercon_hbm13_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm13_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_30/sim/bd_9678_hbm_ram14_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram14_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_31/sim/bd_9678_xtlm_intercon_hbm14_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm14_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_32/sim/bd_9678_hbm_ram15_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram15_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_33/sim/bd_9678_xtlm_intercon_hbm15_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm15_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_34/sim/bd_9678_hbm_ram16_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram16_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_35/sim/bd_9678_xtlm_intercon_hbm16_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm16_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_36/sim/bd_9678_hbm_ram17_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram17_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_37/sim/bd_9678_xtlm_intercon_hbm17_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm17_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_38/sim/bd_9678_hbm_ram18_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram18_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_39/sim/bd_9678_xtlm_intercon_hbm18_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm18_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_40/sim/bd_9678_hbm_ram19_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram19_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_41/sim/bd_9678_xtlm_intercon_hbm19_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm19_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_42/sim/bd_9678_hbm_ram20_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram20_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_43/sim/bd_9678_xtlm_intercon_hbm20_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm20_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_44/sim/bd_9678_hbm_ram21_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram21_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_45/sim/bd_9678_xtlm_intercon_hbm21_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm21_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_46/sim/bd_9678_hbm_ram22_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram22_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_47/sim/bd_9678_xtlm_intercon_hbm22_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm22_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_48/sim/bd_9678_hbm_ram23_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram23_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_49/sim/bd_9678_xtlm_intercon_hbm23_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm23_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_50/sim/bd_9678_hbm_ram24_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram24_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_51/sim/bd_9678_xtlm_intercon_hbm24_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm24_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_52/sim/bd_9678_hbm_ram25_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram25_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_53/sim/bd_9678_xtlm_intercon_hbm25_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm25_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_54/sim/bd_9678_hbm_ram26_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram26_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_55/sim/bd_9678_xtlm_intercon_hbm26_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm26_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_56/sim/bd_9678_hbm_ram27_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram27_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_57/sim/bd_9678_xtlm_intercon_hbm27_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm27_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_58/sim/bd_9678_hbm_ram28_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram28_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_59/sim/bd_9678_xtlm_intercon_hbm28_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm28_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_60/sim/bd_9678_hbm_ram29_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram29_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_61/sim/bd_9678_xtlm_intercon_hbm29_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm29_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_62/sim/bd_9678_hbm_ram30_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram30_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_63/sim/bd_9678_xtlm_intercon_hbm30_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm30_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_64/sim/bd_9678_hbm_ram31_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_hbm_ram31_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_65/sim/bd_9678_xtlm_intercon_hbm31_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_xtlm_intercon_hbm31_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/bd_0/ip/ip_66/sim/bd_9678_ctrl_stub_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bd_9678_ctrl_stub_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_hmss_0_0/sim/emu_hmss_0_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_hmss_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_xlconcat_interrupt_0/sim/emu_xlconcat_interrupt_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_xlconcat_interrupt_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_xlconcat_interrupt_0_0/sim/emu_xlconcat_interrupt_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_xlconcat_interrupt_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_xlconcat_interrupt_1_0/sim/emu_xlconcat_interrupt_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_xlconcat_interrupt_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_xlconcat_interrupt_2_0/sim/emu_xlconcat_interrupt_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_xlconcat_interrupt_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_xlconcat_interrupt_3_0/sim/emu_xlconcat_interrupt_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_xlconcat_interrupt_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_xlconstant_gnd_0/sim/emu_xlconstant_gnd_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_xlconstant_gnd_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_xbar_3/sim/emu_xbar_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_xbar_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_xbar_4/sim/emu_xbar_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_xbar_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_xbar_5/sim/emu_xbar_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_xbar_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_compute_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_compute_A
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_compute_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_compute_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_control_s_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_control_s_axi
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_fadd_32ns_32ns_32_7_full_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_fadd_32ns_32ns_32_7_full_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_faddfsub_32ns_32ns_32_7_full_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_faddfsub_32ns_32ns_32_7_full_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_fcmp_32ns_32ns_1_2_no_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_fcmp_32ns_32ns_1_2_no_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_fdiv_32ns_32ns_32_12_no_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_fdiv_32ns_32ns_32_12_no_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_fmul_32ns_32ns_32_4_max_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_fmul_32ns_32ns_32_4_max_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_fsub_32ns_32ns_32_7_full_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_fsub_32ns_32ns_32_7_full_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_gmem_m_axi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_gmem_m_axi
+INFO: [VRFC 10-311] analyzing module gauss_gmem_m_axi_reg_slice
+INFO: [VRFC 10-311] analyzing module gauss_gmem_m_axi_fifo
+INFO: [VRFC 10-311] analyzing module gauss_gmem_m_axi_buffer
+INFO: [VRFC 10-311] analyzing module gauss_gmem_m_axi_decoder
+INFO: [VRFC 10-311] analyzing module gauss_gmem_m_axi_throttle
+INFO: [VRFC 10-311] analyzing module gauss_gmem_m_axi_read
+INFO: [VRFC 10-311] analyzing module gauss_gmem_m_axi_write
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_load_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_load_A
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_load_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_load_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_load_multipliers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_load_multipliers
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_load_norm_line.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_load_norm_line
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_mux_164_32_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_mux_164_32_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_norm_line.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_norm_line_ram
+INFO: [VRFC 10-311] analyzing module gauss_norm_line
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_sitofp_32ns_32_5_no_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_sitofp_32ns_32_5_no_dsp_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_store_A.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_store_A
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_store_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_store_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_sub_gauss.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_sub_gauss
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss_sub_gauss_bufferA_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_sub_gauss_bufferA_0_ram
+INFO: [VRFC 10-311] analyzing module gauss_sub_gauss_bufferA_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/verilog/gauss.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/ip/gauss_ap_fmul_2_max_dsp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_ap_fmul_2_max_dsp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/ip/gauss_ap_fadd_5_full_dsp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_ap_fadd_5_full_dsp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/ip/gauss_ap_fdiv_10_no_dsp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_ap_fdiv_10_no_dsp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/ip/gauss_ap_sitofp_3_no_dsp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_ap_sitofp_3_no_dsp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/ip/gauss_ap_fcmp_0_no_dsp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_ap_fcmp_0_no_dsp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/ip/gauss_ap_fsub_5_full_dsp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_ap_fsub_5_full_dsp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/ipshared/267d/hdl/ip/gauss_ap_faddfsub_5_full_dsp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gauss_ap_faddfsub_5_full_dsp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_gauss_1_0/sim/emu_gauss_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_gauss_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_xbar_8/sim/emu_xbar_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_xbar_8
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_dpa_hub_0/sim/emu_dpa_hub_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_dpa_hub_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_dpa_mon0_0/sim/emu_dpa_mon0_0_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_dpa_mon0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_xbar_9/sim/emu_xbar_9.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_xbar_9
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_auto_pc_0/sim/emu_auto_pc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_auto_pc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_auto_pc_1/sim/emu_auto_pc_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_auto_pc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_auto_pc_2/sim/emu_auto_pc_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_auto_pc_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_auto_pc_3/sim/emu_auto_pc_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_auto_pc_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_auto_pc_4/sim/emu_auto_pc_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_auto_pc_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_m01_regslice_5/sim/emu_m01_regslice_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_m01_regslice_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_s00_regslice_0/sim/emu_s00_regslice_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_s00_regslice_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_auto_pc_5/sim/emu_auto_pc_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_auto_pc_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_m00_regslice_0/sim/emu_m00_regslice_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_m00_regslice_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_auto_cc_0/sim/emu_auto_cc_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_auto_cc_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_m01_regslice_7/sim/emu_m01_regslice_7.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_m01_regslice_7
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_auto_cc_1/sim/emu_auto_cc_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_auto_cc_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_m01_regslice_6/sim/emu_m01_regslice_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_m01_regslice_6
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_auto_cc_2/sim/emu_auto_cc_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_auto_cc_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_auto_pc_6/sim/emu_auto_pc_6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_auto_pc_6
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/sim/emu_sci_stub.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_sci
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/sim/emu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module System_DPA_imp_SEKSXZ
+INFO: [VRFC 10-311] analyzing module clk_reset_wizard_imp_1N4AMRV
+INFO: [VRFC 10-311] analyzing module embedded_schedular_imp_1KU1L3J
+INFO: [VRFC 10-311] analyzing module emu
+INFO: [VRFC 10-311] analyzing module emu_axi_interconnect_0_0
+INFO: [VRFC 10-311] analyzing module emu_connect_to_es_0
+INFO: [VRFC 10-311] analyzing module emu_connect_to_es_cu_0
+INFO: [VRFC 10-311] analyzing module emu_dpa_ctrl_interconnect_0
+INFO: [VRFC 10-311] analyzing module emu_interconnect_axilite_user_slr1_0
+INFO: [VRFC 10-311] analyzing module expanded_region_resets_slr0_imp_1OTJI51
+INFO: [VRFC 10-311] analyzing module expanded_region_resets_slr1_imp_RMHY40
+INFO: [VRFC 10-311] analyzing module interrupt_concat_imp_14CZY9A
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_1J2QOWN
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_1R6TU9P
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_ICFMO4
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_RRY9FI
+INFO: [VRFC 10-311] analyzing module m00_couplers_imp_THO9J8
+INFO: [VRFC 10-311] analyzing module m01_couplers_imp_189JRWH
+INFO: [VRFC 10-311] analyzing module m01_couplers_imp_1F0NE0X
+INFO: [VRFC 10-311] analyzing module m01_couplers_imp_1FHFKJF
+INFO: [VRFC 10-311] analyzing module m01_couplers_imp_7QT8NM
+INFO: [VRFC 10-311] analyzing module m01_couplers_imp_H908VS
+INFO: [VRFC 10-311] analyzing module m02_couplers_imp_2SPS0F
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_1I78I2M
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_1KW31TW
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_1T7YMYM
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_KPWTON
+INFO: [VRFC 10-311] analyzing module s00_couplers_imp_UX2T9P
+INFO: [VRFC 10-311] analyzing module s01_couplers_imp_1DNO9BC
+INFO: [VRFC 10-311] analyzing module s01_couplers_imp_8JQCQJ
+INFO: [VRFC 10-311] analyzing module s02_couplers_imp_47SKBQ
+INFO: [VRFC 10-311] analyzing module s03_couplers_imp_1MG1X0J
+INFO: [VRFC 10-311] analyzing module static_region_imp_PT295H
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.gen/sources_1/bd/emu/hdl/emu_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module emu_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.sim/sim_1/behav_waveform/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_axi_intc_0_0/sim/emu_axi_intc_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'emu_axi_intc_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_psr_dma_pcie_aclk_0/sim/emu_psr_dma_pcie_aclk_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'emu_psr_dma_pcie_aclk_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_psreset_gate_pr_kernel_0/sim/emu_psreset_gate_pr_kernel_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'emu_psreset_gate_pr_kernel_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_psreset_gate_pr_kernel2_0/sim/emu_psreset_gate_pr_kernel2_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'emu_psreset_gate_pr_kernel2_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_psreset_gate_pr_kernel_1/sim/emu_psreset_gate_pr_kernel_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'emu_psreset_gate_pr_kernel_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_psreset_gate_pr_kernel2_1/sim/emu_psreset_gate_pr_kernel2_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'emu_psreset_gate_pr_kernel2_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "/local-scratch/localhome/aimpert/gaussian-acceleration/gauss/_x.hw_emu.xilinx_u50_gen3x16_xdma_201920_3/link/vivado/vpl/prj/prj.ip_user_files/bd/emu/ip/emu_axi_gpio_null_slr1_0/sim/emu_axi_gpio_null_slr1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'emu_axi_gpio_null_slr1_0'
