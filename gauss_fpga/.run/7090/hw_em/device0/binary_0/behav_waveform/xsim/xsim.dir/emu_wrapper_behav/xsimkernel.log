@@ -1,7 +1,0 @@
-Running: xsim.dir/emu_wrapper_behav/xsimk -wdb xilinx_u50_gen3x16_xdma_201920_3-0-gauss.link.wdb -simmode gui -simrunnum 0 -socket 32861
-Design successfully loaded
-Design Loading Memory Usage: 502524 KB (Peak: 502524 KB)
-Design Loading CPU Usage: 150 ms
-Simulation completed
-Simulation Memory Usage: 598076 KB (Peak: 641792 KB)
-Simulation CPU Usage: 530 ms

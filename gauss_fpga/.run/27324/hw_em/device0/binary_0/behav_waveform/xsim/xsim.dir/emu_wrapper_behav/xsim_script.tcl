@@ -1,1 +1,0 @@
-xsim {emu_wrapper_behav} -wdb {xilinx_u50_gen3x16_xdma_201920_3-0-gauss.link.wdb} -autoloadwcfg -tclbatch {emu_wrapper.tcl} -key {Behavioral:sim_1:Functional:emu_wrapper} -protoinst {protoinst_files/bd_3a93.protoinst} -protoinst {protoinst_files/bd_9678.protoinst} -protoinst {protoinst_files/emu.protoinst} -protoinst {./dr_behav.protoinst}
