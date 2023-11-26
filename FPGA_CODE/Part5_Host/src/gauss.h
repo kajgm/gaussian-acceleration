@@ -5,7 +5,7 @@
 #define RAND_SEED 123
 
 #define TILE_SIZE 16
-#define PACK_COUNT 16
+#define PACK_COUNT 4
 
 // packed float type: used to help maximize BRAM Utilization by increasing data-width
 struct p16x32f
