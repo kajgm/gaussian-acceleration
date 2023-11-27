@@ -46,24 +46,33 @@ void print_X(float *X)
 }
 
 /* Initialize A and B (and X to 0.0s) */
-void initialize_inputs(float *A_sw, float *B_sw, float *X_sw, float *A_hw, float *B_hw, float *X_hw)
+void initialize_inputs(float *A_sw, float *B_sw, float *X_sw, p16x32f *A_hw, float *B_hw, float *X_hw)
 {
     int row, col;
     float aConst, bConst;
 
     for (col = 0; col < SIZE; col++)
     {
-        for (row = 0; row < SIZE; row++)
-        {
-            aConst = (float)rand() / 32768.0;
-            A_sw[col * SIZE + row] = aConst;
-            A_hw[col * SIZE + row] = aConst;
+        for (row = 0; row < SIZE / PACK_COUNT; row++){
+           for (int i = 0; i < PACK_COUNT; i++){
+		     aConst = (float)rand() / 32768.0;
+             A_hw[col * SIZE / PACK_COUNT + row].f[i] = aConst;
+           }
+
         }
         bConst = (float)rand() / 32768.0;
         B_sw[col] = bConst;
         B_hw[col] = bConst;
         X_sw[col] = 0;
         X_hw[col] = 0;
+    }
+    for (col = 0; col < SIZE; col++){
+    	for (row = 0; row < SIZE / PACK_COUNT; row++){
+
+    		for (int i = 0; i < PACK_COUNT; i++){
+    			A_sw[col * SIZE + row * PACK_COUNT + i] = A_hw[col * SIZE / PACK_COUNT + row].f[i];
+    		}
+    	}
     }
 }
 
@@ -155,7 +164,8 @@ int main(int argc, char **argv)
     /* Variable declaration/allocation. */
     int status;
 
-    float *A_hw = (float *)malloc(SIZE * SIZE * sizeof(float));
+    // float *A_hw = (float *)malloc(SIZE * SIZE * sizeof(float));
+    p16x32f *A_hw = (p16x32f *)malloc((SIZE * SIZE / PACK_COUNT) * sizeof(p16x32f));
     float *B_hw = (float *)malloc(SIZE * sizeof(float));
     float *X_hw = (float *)malloc(SIZE * sizeof(float));
 

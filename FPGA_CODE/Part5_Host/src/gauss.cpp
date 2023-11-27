@@ -300,10 +300,11 @@ void sub_gauss(p16x32f A[SIZE * SIZE / PACK_COUNT], float B[SIZE], int norm,
 {
 #pragma HLS inline off
   int row, col;
-  p16x32f bufferA[TILE_SIZE][TILE_SIZE / PACK_COUNT];
+  p16x32f bufferA[3][TILE_SIZE][TILE_SIZE / PACK_COUNT];
   float bufferB[TILE_SIZE];
-  p16x32f bufferNormLine[TILE_SIZE / PACK_COUNT];
+  p16x32f bufferNormLine[3][TILE_SIZE / PACK_COUNT];
   float bufferMultipliers[TILE_SIZE];
+  int load_flag, compute_flag, store_flag;
 
       // aggregate is used to ensure vitis treats the packed types as simply one large data type
 #pragma HLS aggregate variable=bufferA
@@ -325,19 +326,32 @@ row_tile:
     store_B(B, bufferB, row);
 
   col_tile:
-    for (col = 0; col < SIZE / PACK_COUNT; col += TILE_SIZE / PACK_COUNT)
+    for (col = 0; col < SIZE / TILE_SIZE+2; col++)
     {
-      load_A(A, bufferA, norm_line, bufferNormLine, row, col, 1);
-
-      compute_A(bufferA, bufferNormLine,
-                bufferMultipliers,
-                norm, row, col, 1);
-
-      store_A(A, bufferA,
-              row, col, 1);
+      load_flag = col >= 0 && col < SIZE / TILE_SIZE;
+      compute_flag = col >= 1 && col < SIZE / TILE_SIZE + 1;
+      store_flag = col >= 2 && col < SIZE / TILE_SIZE + 2;
+      switch (col%3) {
+        case 0:
+          load_A(A, bufferA[0], norm_line, bufferNormLine[0], row, col*TILE_SIZE / PACK_COUNT, load_flag);
+          compute_A(bufferA[2], bufferNormLine[2], bufferMultipliers, norm, row, (col-1)*TILE_SIZE / PACK_COUNT, compute_flag);
+          store_A(A, bufferA[1], row, (col-2)*TILE_SIZE / PACK_COUNT, store_flag);
+          break;
+        case 1:
+          load_A(A, bufferA[1], norm_line, bufferNormLine[1], row, col*TILE_SIZE / PACK_COUNT, load_flag);
+          compute_A(bufferA[0], bufferNormLine[0], bufferMultipliers, norm, row, (col-1)*TILE_SIZE / PACK_COUNT, compute_flag);
+          store_A(A, bufferA[2], row, (col-2)*TILE_SIZE / PACK_COUNT, store_flag);
+          break;
+        case 2:
+          load_A(A, bufferA[2], norm_line, bufferNormLine[2], row, col*TILE_SIZE / PACK_COUNT, load_flag);
+          compute_A(bufferA[1], bufferNormLine[1], bufferMultipliers, norm, row, (col-1)*TILE_SIZE / PACK_COUNT, compute_flag);
+          store_A(A, bufferA[0], row, (col-2)*TILE_SIZE / PACK_COUNT, store_flag);
+          break;
+      }
     }
   }
 }
+
 
 void back_load_A_row(p16x32f A[SIZE * SIZE / PACK_COUNT], float bufferA_row[TILE_SIZE], int row, int col){
 #pragma HLS inline off
