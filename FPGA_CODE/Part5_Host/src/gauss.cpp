@@ -431,111 +431,121 @@ void back_substitution(p16x32f A[SIZE * SIZE / PACK_COUNT], float X[SIZE], float
 
 }
 
-void gauss(p16x32f A[SIZE * SIZE / PACK_COUNT], float B[SIZE], float X[SIZE])
-{
-  int norm, row, col; /* Normalization row, and zeroing
-                       * element row and col */
-  float multiplier;
-  p16x32f norm_line[SIZE / PACK_COUNT];
-  float multipliers[SIZE];
-  float a_norm_element;
-  float b_norm_element;
-  float diagonal_element;
-  float X_row_element[1];
-
-  int corrected_norm;
-  int packed_idx;
-  int pack_offset;
-  p16x32f packed_element;
-  float float_element;
-
-/* Gaussian elimination */
-norm:
-  for (norm = 0; norm < SIZE - 1; norm++)
+extern "C" {
+  void gauss(p16x32f A[SIZE * SIZE / PACK_COUNT], float B[SIZE], float X[SIZE])
   {
-    // a_norm_element = A[norm * SIZE + norm];
-	// Calculate the index of the packed element in A
-	packed_idx = norm * SIZE / PACK_COUNT + norm / PACK_COUNT;
-	// Calculate the offset within the packed element
-	corrected_norm = norm;
-	while (corrected_norm > PACK_COUNT){
-		corrected_norm = corrected_norm - PACK_COUNT;
-	}
-	pack_offset = corrected_norm % PACK_COUNT;
-	// Access the packed array
-	packed_element = A[packed_idx];
-	// Access the float within the packed array
-	float_element = packed_element.f[pack_offset];
-	// Assign the value to a_norm_element
-	a_norm_element = float_element;
+    #pragma HLS INTERFACE m_axi port=A offset=slave bundle=gmem
+    #pragma HLS INTERFACE m_axi port=B offset=slave bundle=gmem
+    #pragma HLS INTERFACE m_axi port=X offset=slave bundle=gmem
+    #pragma HLS INTERFACE s_axilite port=A bundle=control
+    #pragma HLS INTERFACE s_axilite port=B bundle=control
+    #pragma HLS INTERFACE s_axilite port=X bundle=control
+    #pragma HLS INTERFACE s_axilite port=return bundle=control
 
-    b_norm_element = B[norm];
+    int norm, row, col; /* Normalization row, and zeroing
+                        * element row and col */
+    float multiplier;
+    p16x32f norm_line[SIZE / PACK_COUNT];
+    float multipliers[SIZE];
+    float a_norm_element;
+    float b_norm_element;
+    float diagonal_element;
+    float X_row_element[1];
 
-    norm_line:
-      for (int i = 0; i < SIZE / PACK_COUNT; i++)
-      {
-#pragma HLS pipeline II = 1
-        norm_line[i] = A[norm * SIZE / PACK_COUNT + i];
-      }
+    int corrected_norm;
+    int packed_idx;
+    int pack_offset;
+    p16x32f packed_element;
+    float float_element;
 
-    multipliers:
-      for (int i = 0; i < SIZE; i++)
-      {
-#pragma HLS pipeline II = 1
-        // multipliers[i] = A[i * SIZE + norm] / a_norm_element;
-		packed_idx = i * SIZE / PACK_COUNT + norm / PACK_COUNT;
-
-		corrected_norm = norm;
-//		while (corrected_norm > PACK_COUNT){
-//			corrected_norm = corrected_norm - PACK_COUNT;
-//		}
-		pack_offset = corrected_norm % PACK_COUNT;
-
-		// Access the packed array
-		packed_element = A[packed_idx];
-
-		// Access the float within the packed array
-		float_element = packed_element.f[pack_offset];
-
-		// Divide by the normalization element
-		multipliers[i] = float_element / a_norm_element;
-      }
-
-    sub_gauss(A, B, norm, b_norm_element, norm_line, multipliers);
-  }
-/* (Diagonal elements are not normalized to 1.  This is treated in back
- * substitution.)
- */
-
-/* Back substitution */
-back_row:
-  for (row = SIZE - 1; row >= 0; row--)
-  {
-    X_row_element[0] = B[row];
-    // diagonal_element = A[row * SIZE + row];
-//    diagonal_element = A[row * SIZE / PACK_COUNT + row / PACK_COUNT].f[row % PACK_COUNT];
+  /* Gaussian elimination */
+  norm:
+    for (norm = 0; norm < SIZE - 1; norm++)
+    {
+      // a_norm_element = A[norm * SIZE + norm];
     // Calculate the index of the packed element in A
-    int packed_idx = row * SIZE / PACK_COUNT + row / PACK_COUNT;
-
-    // Correct the row value if it's greater than PACK_COUNT
-    int corrected_row = row;
-    while (corrected_row > PACK_COUNT){
-        corrected_row = corrected_row - PACK_COUNT;
-    }
-
+    packed_idx = norm * SIZE / PACK_COUNT + norm / PACK_COUNT;
     // Calculate the offset within the packed element
-    int pack_offset = corrected_row % PACK_COUNT;
-
+    corrected_norm = norm;
+    while (corrected_norm > PACK_COUNT){
+      corrected_norm = corrected_norm - PACK_COUNT;
+    }
+    pack_offset = corrected_norm % PACK_COUNT;
     // Access the packed array
-    p16x32f packed_element = A[packed_idx];
-
+    packed_element = A[packed_idx];
     // Access the float within the packed array
-    float float_element = packed_element.f[pack_offset];
+    float_element = packed_element.f[pack_offset];
+    // Assign the value to a_norm_element
+    a_norm_element = float_element;
 
-    // Assign the value to diagonal_element
-    diagonal_element = float_element;
+      b_norm_element = B[norm];
+
+      norm_line:
+        for (int i = 0; i < SIZE / PACK_COUNT; i++)
+        {
+  #pragma HLS pipeline II = 1
+          norm_line[i] = A[norm * SIZE / PACK_COUNT + i];
+        }
+
+      multipliers:
+        for (int i = 0; i < SIZE; i++)
+        {
+  #pragma HLS pipeline II = 1
+          // multipliers[i] = A[i * SIZE + norm] / a_norm_element;
+      packed_idx = i * SIZE / PACK_COUNT + norm / PACK_COUNT;
+
+      corrected_norm = norm;
+  //		while (corrected_norm > PACK_COUNT){
+  //			corrected_norm = corrected_norm - PACK_COUNT;
+  //		}
+      pack_offset = corrected_norm % PACK_COUNT;
+
+      // Access the packed array
+      packed_element = A[packed_idx];
+
+      // Access the float within the packed array
+      float_element = packed_element.f[pack_offset];
+
+      // Divide by the normalization element
+      multipliers[i] = float_element / a_norm_element;
+        }
+
+      sub_gauss(A, B, norm, b_norm_element, norm_line, multipliers);
+    }
+  /* (Diagonal elements are not normalized to 1.  This is treated in back
+  * substitution.)
+  */
+
+  /* Back substitution */
+  back_row:
+    for (row = SIZE - 1; row >= 0; row--)
+    {
+      X_row_element[0] = B[row];
+      // diagonal_element = A[row * SIZE + row];
+  //    diagonal_element = A[row * SIZE / PACK_COUNT + row / PACK_COUNT].f[row % PACK_COUNT];
+      // Calculate the index of the packed element in A
+      int packed_idx = row * SIZE / PACK_COUNT + row / PACK_COUNT;
+
+      // Correct the row value if it's greater than PACK_COUNT
+      int corrected_row = row;
+      while (corrected_row > PACK_COUNT){
+          corrected_row = corrected_row - PACK_COUNT;
+      }
+
+      // Calculate the offset within the packed element
+      int pack_offset = corrected_row % PACK_COUNT;
+
+      // Access the packed array
+      p16x32f packed_element = A[packed_idx];
+
+      // Access the float within the packed array
+      float float_element = packed_element.f[pack_offset];
+
+      // Assign the value to diagonal_element
+      diagonal_element = float_element;
 
 
-    back_substitution(A, X, X_row_element, diagonal_element, row);
+      back_substitution(A, X, X_row_element, diagonal_element, row);
+    }
   }
 }

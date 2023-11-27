@@ -13,6 +13,8 @@ struct p16x32f
     float f[PACK_COUNT];
 };
 
-void gauss(p16x32f A[SIZE * SIZE / PACK_COUNT], float B[SIZE], float X[SIZE]);
+extern "C" {
+    void gauss(p16x32f A[SIZE * SIZE / PACK_COUNT], float B[SIZE], float X[SIZE]);
+}
 
 #endif // _H_GAUSS_H_
