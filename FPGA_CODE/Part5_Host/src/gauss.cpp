@@ -310,9 +310,9 @@ void sub_gauss(p16x32f A[SIZE * SIZE / PACK_COUNT], float B[SIZE], int norm,
 #pragma HLS aggregate variable=bufferA
 #pragma HLS aggregate variable=bufferNormLine
 
-#pragma HLS array_partition variable = bufferA complete dim = 2
+#pragma HLS array_partition variable = bufferA complete dim = 3
 #pragma HLS array_partition variable = bufferB complete
-#pragma HLS array_partition variable = bufferNormLine complete
+#pragma HLS array_partition variable = bufferNormLine complete dim = 2
 #pragma HLS array_partition variable = bufferMultipliers complete
 row_tile:
   for (row = 0; row < SIZE; row += TILE_SIZE)
