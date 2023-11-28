@@ -7,7 +7,6 @@
 #define TILE_SIZE 64
 #define PACK_COUNT 16
 
-// packed float type: used to help maximize BRAM Utilization by increasing data-width
 struct p16x32f
 {
     float f[PACK_COUNT];
