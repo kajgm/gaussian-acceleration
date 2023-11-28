@@ -126,8 +126,8 @@ int check_sw_hw(float *X_sw, float *X_hw)
                    i, X_sw[i], i, X_hw[i]);
             return -1;
         }
-                //     printf("TEST FAILED, results not matching, C_sw[%d] = %f, C_hw[%d] = %f.\n",
-                //    i, X_sw[i], i, X_hw[i]);
+                    printf("TEST FAILED, results not matching, C_sw[%d] = %f, C_hw[%d] = %f.\n",
+                   i, X_sw[i], i, X_hw[i]);
     }
 
     return 0;
