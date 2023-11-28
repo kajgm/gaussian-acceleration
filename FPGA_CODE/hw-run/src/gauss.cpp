@@ -404,10 +404,7 @@ extern "C" {
       // Calculate the index of the packed element in A
       packed_idx = norm * SIZE / PACK_COUNT + norm / PACK_COUNT;
       // Calculate the offset within the packed element
-      corrected_norm = norm;
-      while (corrected_norm > PACK_COUNT){
-        corrected_norm = corrected_norm - PACK_COUNT;
-      }
+      corrected_norm = norm % PACK_COUNT;
       pack_offset = corrected_norm % PACK_COUNT;
       // Access the packed array
       packed_element = A[packed_idx];
@@ -432,10 +429,7 @@ extern "C" {
             
           packed_idx = i * SIZE / PACK_COUNT + norm / PACK_COUNT;
 
-          corrected_norm = norm;
-          while (corrected_norm > PACK_COUNT){
-            corrected_norm = corrected_norm - PACK_COUNT;
-          }
+          corrected_norm = norm % PACK_COUNT;
           pack_offset = corrected_norm % PACK_COUNT;
 
           // Access the packed array
@@ -463,10 +457,7 @@ extern "C" {
       int packed_idx = row * SIZE / PACK_COUNT + row / PACK_COUNT;
 
       // Correct the row value if it's greater than PACK_COUNT
-      int corrected_row = row;
-      while (corrected_row > PACK_COUNT){
-          corrected_row = corrected_row - PACK_COUNT;
-      }
+      int corrected_row = row % PACK_COUNT;
 
       // Calculate the offset within the packed element
       int pack_offset = corrected_row % PACK_COUNT;
