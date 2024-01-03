@@ -1,39 +1,7 @@
 /* Gaussian elimination without pivoting.
  */
 #include "gauss.h"
-#include "stdio.h"
-// void gauss(float A[SIZE * SIZE], float B[SIZE], float X[SIZE])
-// {
-//   int norm, row, col; /* Normalization row, and zeroing
-//                        * element row and col */
-//   float multiplier;
-//   /* Gaussian elimination */
-//   for (norm = 0; norm < SIZE - 1; norm++)
-//   {
-//     for (row = norm + 1; row < SIZE; row++)
-//     {
-//       multiplier = A[row * SIZE + norm] / A[norm * SIZE + norm];
-//       for (col = norm; col < SIZE; col++)
-//       {
-//         A[row * SIZE + col] -= A[norm * SIZE + col] * multiplier;
-//       }
-//       B[row] -= B[norm] * multiplier;
-//     }
-//   }
-//   /* (Diagonal elements are not normalized to 1.  This is treated in back
-//    * substitution.)
-//    */
-//   /* Back substitution */
-//   for (row = SIZE - 1; row >= 0; row--)
-//   {
-//     X[row] = B[row];
-//     for (col = SIZE - 1; col > row; col--)
-//     {
-//       X[row] -= A[row * SIZE + col] * X[col];
-//     }
-//     X[row] /= A[row * SIZE + row];
-//   }
-// }
+
 void store_A(float A[SIZE * SIZE],
              float bufA[TILE_SIZE][TILE_SIZE],
              float norm,
@@ -83,6 +51,7 @@ void compute_A(float bufA[TILE_SIZE][TILE_SIZE],
                int col)
 {
 #pragma HLS inline off
+#pragma HLS pipeline off
   int row_inner, col_inner;
   int current_row, current_col;
   float multiplier;
@@ -90,7 +59,6 @@ void compute_A(float bufA[TILE_SIZE][TILE_SIZE],
 compute_row_inner:
   for (row_inner = 0; row_inner < TILE_SIZE; row_inner++)
   {
-#pragma HLS pipeline II = 1
     current_row = row + row_inner;
     if (current_row >= norm + 1)
     {
@@ -114,13 +82,13 @@ void compute_B(float bufB[TILE_SIZE],
                int row)
 {
 #pragma HLS inline off
+#pragma HLS pipeline off
   int row_inner, col_inner;
   int current_row, current_col;
   float multiplier;
 compute_row_inner:
   for (row_inner = 0; row_inner < TILE_SIZE; row_inner++)
   {
-#pragma HLS unroll
     current_row = row + row_inner;
     if (current_row >= norm + 1)
     {
@@ -142,7 +110,7 @@ load_row_inner:
   load_col_inner:
     for (col_inner = 0; col_inner < TILE_SIZE; col_inner++)
     {
-#pragma HLS pipeline II = 1
+#pragma HLS pipeline II=1
       current_col = col + col_inner;
       bufA[row_inner][col_inner] = A[current_row * SIZE + current_col];
     }
@@ -236,7 +204,7 @@ void back_load_A_row(float A[SIZE * SIZE], float bufferA_row[TILE_SIZE], int row
   load_A_row:
   for (col_inner = 0; col_inner < TILE_SIZE; col_inner++)
   {
-    #pragma HLS pipeline II=1
+    #pragma HLS pipeline II = 1
     current_col = col - col_inner;
     bufferA_row[col_inner] = A[row * SIZE + current_col];
   }
@@ -249,7 +217,7 @@ void back_load_X(float X[SIZE], float bufferX[SIZE], int col){
   load_X:
   for (col_inner = 0; col_inner < TILE_SIZE; col_inner++)
   {
-    #pragma HLS pipeline II=1
+    #pragma HLS pipeline II = 1
     current_col = col - col_inner;
     bufferX[col_inner] = X[current_col];
   }
@@ -264,7 +232,7 @@ void compute_X(float x_row_value[1], float bufferA_row[TILE_SIZE], float bufferX
   compute_X:
   for (col_inner = 0; col_inner < TILE_SIZE; col_inner++)
   {
-    #pragma HLS pipeline II=8
+#pragma HLS pipeline II=8
     // #pragma HLS unroll
     current_col = col - col_inner;
 

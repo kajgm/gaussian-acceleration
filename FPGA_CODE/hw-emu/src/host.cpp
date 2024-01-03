@@ -66,24 +66,33 @@ void gauss_sw(std::vector<float, aligned_allocator<float> >& A, // Input Matrix 
 }
 
 /* Initialize A and B (and X to 0.0s) */
-void initialize_inputs(std::vector<float, aligned_allocator<float> >& A_sw, std::vector<float, aligned_allocator<float> >& B_sw, std::vector<float, aligned_allocator<float> >& X_sw, std::vector<float, aligned_allocator<float> >& A_hw, std::vector<float, aligned_allocator<float> >&B_hw, std::vector<float, aligned_allocator<float> >& X_hw)
+void initialize_inputs(std::vector<float, aligned_allocator<float> >& A_sw, std::vector<float, aligned_allocator<float> >& B_sw, std::vector<float, aligned_allocator<float> >& X_sw, std::vector<p16x32f, aligned_allocator<p16x32f> >& A_hw, std::vector<float, aligned_allocator<float> >&B_hw, std::vector<float, aligned_allocator<float> >& X_hw)
 {
     int row, col;
     float aConst, bConst;
 
     for (col = 0; col < SIZE; col++)
     {
-        for (row = 0; row < SIZE; row++)
-        {
-            aConst = (float)rand() / 32768.0;
-            A_sw[col * SIZE + row] = aConst;
-            A_hw[col * SIZE + row] = aConst;
+        for (row = 0; row < SIZE / PACK_COUNT; row++){
+           for (int i = 0; i < PACK_COUNT; i++){
+		     aConst = (float)rand() / 32768.0;
+             A_hw[col * SIZE / PACK_COUNT + row].f[i] = aConst;
+           }
+
         }
         bConst = (float)rand() / 32768.0;
         B_sw[col] = bConst;
         B_hw[col] = bConst;
         X_sw[col] = 0;
         X_hw[col] = 0;
+    }
+    for (col = 0; col < SIZE; col++){
+    	for (row = 0; row < SIZE / PACK_COUNT; row++){
+
+    		for (int i = 0; i < PACK_COUNT; i++){
+    			A_sw[col * SIZE + row * PACK_COUNT + i] = A_hw[col * SIZE / PACK_COUNT + row].f[i];
+    		}
+    	}
     }
 }
 
@@ -145,7 +154,8 @@ int main(int argc, char** argv) {
     cl::Context context;
     cl::Kernel krnl_gauss;
 
-    std::vector<float, aligned_allocator<float> > A(SIZE * SIZE * sizeof(float));
+    std::vector<p16x32f, aligned_allocator<p16x32f> > A(SIZE * SIZE / PACK_COUNT * sizeof(p16x32f));
+    // std::vector<float, aligned_allocator<float> > A(SIZE * SIZE * sizeof(float));
     std::vector<float, aligned_allocator<float> > B(SIZE * sizeof(float));
     std::vector<float, aligned_allocator<float> > X_hw(SIZE * sizeof(float));
 
