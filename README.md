@@ -1,4 +1,4 @@
-# FPGA acceleration of Gaussian Elimination algorithm
+# FPGA Accelerated Gaussian Elimination Algorithm
 
 This program provides a step-by-step optimization of the commonly used Gaussian Elimination algorithm.
 
