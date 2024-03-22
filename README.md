@@ -79,5 +79,5 @@ Our current implementation suffers from a slowdown when the ping-pong buffer opt
 ## Acknowledgements
 
 - The cuda code is provided from the [Rodinia GPU Benchmark suite](http://lava.cs.virginia.edu/Rodinia/download_links.html)
-- The FPGA base code is provided from the OpenMP implementation from [gaussian-elimincation-pthreads-openmp](https://github.com/gmendonca/gaussian-elimination-pthreads-openmp)
+- The FPGA base code is provided from the OpenMP implementation from [gaussian-elimination-pthreads-openmp](https://github.com/gmendonca/gaussian-elimination-pthreads-openmp)
 - Makefiles are provided courtesy of Xilinx
